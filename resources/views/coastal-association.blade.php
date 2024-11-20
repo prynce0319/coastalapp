@@ -517,7 +517,7 @@
                     <div class="row align-items-center mt-5 pt-lg-5 gy-4">
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/construction/bulldozer.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="{{ URL::asset('assets/images/mine9.jpg') }}" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -548,7 +548,7 @@
                         <!-- end col -->
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/construction/bulldozer.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="{{ URL::asset('assets/images/mine10.jpg') }}" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         
