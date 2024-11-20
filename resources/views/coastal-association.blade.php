@@ -108,7 +108,7 @@
                                             <img src="{{ URL::asset('assets/images/mine1.png') }}" class="d-block w-100 rounded" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/construction/b.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="{{ URL::asset('assets/images/b.jpg') }}" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="{{ URL::asset('assets/images/mine2.jpg') }}" class="d-block w-100" alt="...">
@@ -159,9 +159,9 @@
                                 <div class="swiper trusted-client-slider mt-sm-5 mt-4 mb-sm-5 mb-4" dir="ltr">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="client-images">
-                                                <img src="{{ URL::asset('assets/images/clients/amazon.svg') }}" alt="client-img"
-                                                    class="mx-auto img-fluid d-block">
+                                            <div class="">
+                                                <img src="{{ URL::asset('assets/images/mine11.png') }}" height="200px" alt="client-img"
+                                                    class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
