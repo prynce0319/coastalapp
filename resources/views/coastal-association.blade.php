@@ -537,15 +537,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="flex-grow-1">
+                                        {{-- <div class="flex-grow-1">
                                             <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <div class="d-flex align-items-center">
                                         
-                                        <div class="flex-grow-1">
+                                        {{-- <div class="flex-grow-1">
                                             <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     {{-- <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0 me-2">
@@ -584,15 +584,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="flex-grow-1">
+                                        {{-- <div class="flex-grow-1">
                                             <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <div class="d-flex align-items-center">
                                         
-                                        <div class="flex-grow-1">
+                                        {{-- <div class="flex-grow-1">
                                             <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     {{-- <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0 me-2">
