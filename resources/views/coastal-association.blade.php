@@ -80,9 +80,9 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-sm-10">
                             <div class="text-center mt-lg-5 pt-5">
-                                <h3  style="color: rgb(15, 7, 71);">COASTAL ZONE MINING ASSOCIATION</h3>                              
+                                <h3  style="color: rgb(239, 224, 15);">COASTAL ZONE MINING ASSOCIATION</h3>                              
                                 <h1 class="display-6 fw-semibold mb-3 lh-base text-white">Transforming Small-Scale Mining:  <span id="typed-text" style="color: rgb(15, 7, 71);"></span></h1>
-                                <p class="lead lh-base" style="color: rgb(14, 13, 11)">{{-- Driving environmental stewardship, community development, and sustainable livelihoods for small-scale miners and their communities. --}}Small scale miners and their communities in the coastal designated areas.
+                                <p class="lead lh-base" style="color: rgb(15, 229, 240)">{{-- Driving environmental stewardship, community development, and sustainable livelihoods for small-scale miners and their communities. --}}Small scale miners and their communities in the coastal designated areas.
                                 </p>
                                 <br>
                                 <br>
@@ -527,39 +527,7 @@
                                 <p class="mb-4"> Workshops on mercury-free mining and best practices.
                                     Education on environmental conservation and climate adaptation.</p>
 
-                                <div class="vstack gap-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                            
-                                                <div class="avatar-title bg-transparent rounded-circle h2" style="color: rgb(15, 7, 71);">
-                                                    <i class="ri-phone-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {{-- <div class="flex-grow-1">
-                                            <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div> --}}
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        
-                                        {{-- <div class="flex-grow-1">
-                                            <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div> --}}
-                                    </div>
-                                    {{-- <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                                <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                    <i class="ri-check-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">Themes customization information</p>
-                                        </div>
-                                    </div> --}}
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- end col -->
@@ -574,39 +542,7 @@
                                 <p class="mb-4"> Partnering with donors, NGOs, and private investors to fund key projects.
                                     Advocating for policy reforms that streamline licensing and regulation.</p>
 
-                                <div class="vstack gap-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                            
-                                                <div class="avatar-title bg-transparent rounded-circle h2" style="color: rgb(15, 7, 71);">
-                                                    <i class="ri-phone-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {{-- <div class="flex-grow-1">
-                                            <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div> --}}
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        
-                                        {{-- <div class="flex-grow-1">
-                                            <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div> --}}
-                                    </div>
-                                    {{-- <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                                <div class="avatar-title bg-transparent text-success rounded-circle h2">
-                                                    <i class="ri-check-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">Themes customization information</p>
-                                        </div>
-                                    </div> --}}
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- end col -->
@@ -1159,7 +1095,7 @@
                                 <div>
                                     <i class="ri-double-quotes-l text-white display-3"></i>
                                 </div>
-                                <h4 class="text-white mb-5"><span class="text-white"></span>Client Testimonials</h4>
+                                <h4 class="text-white mb-5"><span class="text-white"></span>Success Stories</h4>
 
                                 <!-- Swiper -->
                                 <div class="swiper client-review-swiper rounded" dir="ltr">
@@ -1168,11 +1104,11 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"AMS & Sons exceeded our expectations with their timely delivery and attention to detail on our highway project. Their team was professional and highly skilled."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"In just two years, CZMA trained over 300 miners in mercury-free mining techniques. This initiative reduced mercury use in small-scale mining operations by 80%, significantly improving the health of miners and local ecosystems. As a result, previously contaminated water bodies were rehabilitated, restoring access to clean water for nearby communities."</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Samuel Owusu</h5>
-                                                            <p>- Client</p>
+                                                            <h5 class="text-white">Mercury-Free Mining Success</h5>
+                                                            <p>- Transforming Mining in Gomoa West</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1183,12 +1119,12 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"AMS & Sons Construction has been an essential partner in our road development projects. Their professionalism and commitment to quality are unmatched. From planning to execution, they delivered on time, within budget, and exceeded our expectations. 
-                                                            The roads they've built have greatly improved transportation in our community. We look forward to working with them again."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"CZMA's vocational training programs have empowered over 200 women with skills in tailoring, catering, and jewelry making. These women now run small businesses, earning sustainable incomes and supporting their families. One participant, Akosua Mensah, shared, "This program gave me the tools to become self-reliant. 
+                                                            I’m no longer dependent on mining for income.""</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Abena Owusu, CEO</h5>
-                                                            <p> – Elite Building Solutions</p>
+                                                            <h5 class="text-white">Uplifting Young Women</h5>
+                                                            <p> – Women Empowerment Through Vocational Training</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1199,12 +1135,12 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"We hired AMS & Sons Construction for a large-scale infrastructure project, and they truly delivered. Their team was highly skilled and communicative throughout the entire process. 
-                                                            The quality of their work speaks for itself, and their attention to detail ensures that the project was completed to the highest standards. I highly recommend them for any construction needs."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"Through land rehabilitation initiatives, CZMA transformed over 50 hectares of degraded mining land into productive farmland. Farmers now grow crops like cassava and maize, 
+                                                            boosting local food security and providing alternative income streams."</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Kwame Mensah, Project Manager</h5>
-                                                            <p>– Accra Roadworks</p>
+                                                            <h5 class="text-white">Reviving Farmlands</h5>
+                                                            <p>– Rehabilitated Mining Sites for Agriculture</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1588,12 +1524,11 @@
                         <div class="col-lg-4 mt-4">
                             <div>
                                 <div>
-                                    <img src="{{ URL::asset('assets/images/logo-light.png') }}" alt="logo light" height="17">
+                                    <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="logo light" height="17">
                                 </div>
                                 <div class= mt-4 fs-13">
-                                    <p>Premium Multipurpose Admin & Dashboard Template</p>
-                                    <p class="ff-secondary">You can build any type of web application like eCommerce, CRM, CMS, Project
-                                        management apps, Admin Panels, etc using Velzon.</p>
+                                    <p>Transforming Small-Scale Mining</p>
+                                    <p class="ff-secondary">Small scale miners and their communities in the coastal designated areas</p>
                                 </div>
                             </div>
                         </div>
@@ -1603,7 +1538,7 @@
                                 <div class="col-sm-4 mt-4">
                                     <h5 class="text-white mb-0">Coastal Zone Mining Association<div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
-                                            <li><a href="pages-profile">About Us</a></li>
+                                            <li><a href="#reviews">About Us</a></li>
                                            
                                             <li><a href="apps-projects-overview">Projects</a></li>
                                             <li><a href="pages-timeline">Timeline</a></li>
@@ -1643,7 +1578,7 @@
                                 <p class="copy-rights mb-0">
                                     <script>
                                         document.write(new Date().getFullYear())
-                                    </script> © Velzon - Themesbrand
+                                    </script> © Optocodes Innovations
                                 </p>
                             </div>
                         </div>
