@@ -61,11 +61,11 @@
                             </li>
                         </ul>
 
-                        <div class="">
+                        {{-- <div class="">
                             <a href="auth-signin-basic" class="btn btn-link fw-medium text-decoration-none text-dark">Sign
                                 in</a>
                             <a href="auth-signup-basic" class="btn btn-primary">Sign Up</a>
-                        </div>
+                        </div> --}}
                     </div>
 
                 </div>
