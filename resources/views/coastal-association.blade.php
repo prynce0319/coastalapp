@@ -189,9 +189,9 @@
                                             </div>
                                         </div> --}}
                                         <div class="swiper-slide">
-                                            <div class="client-images">
-                                                <img src="{{ URL::asset('assets/images/clients/verizon.svg') }}" alt="client-img"
-                                                    class="mx-auto img-fluid d-block">
+                                            <div class="">
+                                                <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="client-img"
+                                                    class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
