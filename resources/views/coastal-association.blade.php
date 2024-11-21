@@ -25,7 +25,7 @@
         <div class="layout-wrapper landing">
             <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="index">
+                    <a class="navbar-brand" href="/">
                         <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-dark rounded" width="150px" height="100px" alt="logo dark" height="17">
                         <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-light rounded" width="150px" height="100px" alt="logo light"
                             height="17">
