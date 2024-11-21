@@ -1,5 +1,5 @@
 @extends('layouts.master-without-nav')
-@section('title') Landing @endsection
+@section('title') CZMA @endsection
 @section('css')
 <link href="{{ URL::asset('assets/libs/swiper/swiper.min.css')}}" rel="stylesheet" type="text/css" />
 
