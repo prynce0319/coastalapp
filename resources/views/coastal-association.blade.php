@@ -82,7 +82,7 @@
                             <div class="text-center mt-lg-5 pt-5">
                                 <h3  style="color: rgb(239, 224, 15);">COASTAL ZONE MINING ASSOCIATION</h3>                              
                                 <h1 class="display-6 fw-semibold mb-3 lh-base text-white">Transforming Small-Scale Mining:  <span id="typed-text" style="color: rgb(15, 7, 71);"></span></h1>
-                                <p class="lead lh-base" style="color: rgb(15, 229, 240)">{{-- Driving environmental stewardship, community development, and sustainable livelihoods for small-scale miners and their communities. --}}Small scale miners and their communities in the coastal designated areas.
+                                <p class="lead lh-base" style="color: rgb(235, 240, 241)">{{-- Driving environmental stewardship, community development, and sustainable livelihoods for small-scale miners and their communities. --}}Small scale miners and their communities in the coastal designated areas.
                                 </p>
                                 <br>
                                 <br>
