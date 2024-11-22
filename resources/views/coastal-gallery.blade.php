@@ -41,7 +41,7 @@
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
                                                 <a class="image-popup" href="{{ URL::asset('assets/images/small/img-1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/small/img-1.jpg') }}" alt="" />
+                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine6.jpg') }}" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Glasses and laptop from above</h5>
                                                     </div>
@@ -69,7 +69,7 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-2.jpg') }}" title="">
+                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine3.jpg') }}" title="">
                                                     <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/small/img-2.jpg') }}" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Working at a coffee shop</h5>

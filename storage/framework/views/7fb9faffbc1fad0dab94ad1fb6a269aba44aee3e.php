@@ -431,8 +431,7 @@
                             <div class="text-muted">
                                 
                                 <h2 class="mb-3">Core Activities</h2>
-                                <p class="mb-4 ff-secondary">At AMS & Sons Construction, we understand that having access to the right equipment is essential for the successful completion of any construction project. To support your projects, we offer a wide range of modern, well-maintained construction equipment available for hire. Whether you need machinery 
-                                    for road construction, earthmoving, or material handling, our fleet is equipped to handle jobs of all sizes.</p>
+                                
 
                                 <div class="row">
                                     <div class="col-sm-5">
@@ -481,9 +480,7 @@
                                     
                                 </div>
 
-                                <div class="mt-4">
-                                    <a href="index" class="btn text-white" style="background-color: rgb(15, 7, 71);">More Equipment <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- end col -->

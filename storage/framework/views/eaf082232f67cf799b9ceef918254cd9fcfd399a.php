@@ -41,7 +41,7 @@
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
                                                 <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" alt="" />
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Glasses and laptop from above</h5>
                                                     </div>
