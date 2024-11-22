@@ -219,7 +219,7 @@
                         </div>
                         <!-- end col -->
                         <div class="col-lg-4">
-                            <img src="{{ URL::asset('assets/images/mine13.png') }}"  height="300px" alt="cadastral">
+                            <img src="{{ URL::asset('assets/images/mine21.png') }}"  height="300px" alt="cadastral">
                         </div>
                     </div>
                     <!-- end row -->
