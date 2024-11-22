@@ -83,7 +83,7 @@
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
                                                         <p class="mb-1">Designation :</p>
-                                                        <h6 class="text-truncate mb-0">Chief Executive Officer</h6>
+                                                        <h6 class="text-truncate mb-0">Executive Secretary & CFO</h6>
                                                     </div>
                                                 </div>
                                             </div>
