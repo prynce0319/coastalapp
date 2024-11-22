@@ -908,6 +908,77 @@
             </section> --}}
             <!-- end plan -->
 
+            <!-- start features -->
+            <section style="background-color: rgb(15, 7, 71)" class="section py-5" id="features">
+                <div class="container">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-lg-6 col-sm-7 mx-auto">
+                            <div>
+                                <img src="{{ URL::asset('assets/images/mine19.jpg') }}" alt="" class="img-fluid mx-auto img-thumbnail rounded">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-muted">
+                                <!-- Icon Section -->
+                                <div class="avatar-sm icon-effect mb-4">
+                                    <div class="avatar-title bg-transparent rounded-circle text-white h1">
+                                        <i class="ri-collage-line fs-36"></i>
+                                    </div>
+                                </div>
+                        
+                                <!-- Title Section -->
+                                <h3 class="mb-3 fs-20" style="color: rgb(42 160 188)">Our Agricultural Impact</h3>
+                                <p class="mb-4 ff-secondary fs-16 text-white">
+                                    By leveraging community mining initiatives, we can:
+                                    <ul class="fs-16 text-white">
+                                        <li>Improve food access by increasing the availability of nutritious food in local communities.</li>
+                                        <li>Develop storage facilities to reduce post-harvest losses and maintain food quality.</li>
+                                        <li>Enhance irrigation systems to support agriculture and promote sustainable water management.</li>
+                                        <li>Preserve fertile land for future productivity and combat degradation or erosion.</li>
+                                        <li>Conserve water sources to ensure availability for agriculture and community use.</li>
+                                        <li>Protect ecosystems to sustain biodiversity and agricultural productivity.</li>
+                                    </ul>
+                                </p>
+                        
+                                <!-- Key Stats Section -->
+                                <div class="row pt-3">
+                                    <div class="col-3">
+                                        <div class="text-start">
+                                            <h4 style="color: rgb(42 160 188)">500+</h4>
+                                            <p style="font-size: 11px; color: rgb(42 160 188);">Miners trained in sustainable practices by Year 2</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="text-start">
+                                            <h4 style="color: rgb(42 160 188)">80%</h4>
+                                            <p style="font-size: 11px; color: rgb(42 160 188);">Reduction in mercury use achieved in target communities</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="text-start">
+                                            <h4 style="color: rgb(42 160 188)">5,000+</h4>
+                                            <p style="font-size: 11px; color: rgb(42 160 188);">Jobs created across mining, agriculture, and value-added sectors by Year 4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <!-- Additional Practices Section -->
+                                <p class="mt-4 ff-secondary fs-16 text-white">
+                                    Sustainable agricultural practices like <strong>Agroforestry</strong>, <strong>Crop rotation</strong>, 
+                                    <strong>Organic farming</strong>, and <strong>Soil conservation</strong> further enhance food security 
+                                    and ecosystem services, contributing to long-term resilience.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end features -->
+
             <!-- start faqs -->
             <section class="section">
                 <div class="container">
