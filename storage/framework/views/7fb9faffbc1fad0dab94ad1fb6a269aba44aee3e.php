@@ -1,5 +1,5 @@
 
-<?php $__env->startSection('title'); ?> Landing <?php $__env->stopSection(); ?>
+<?php $__env->startSection('title'); ?> CZMA <?php $__env->stopSection(); ?>
 <?php $__env->startSection('css'); ?>
 <link href="<?php echo e(URL::asset('assets/libs/swiper/swiper.min.css')); ?>" rel="stylesheet" type="text/css" />
 
@@ -22,7 +22,7 @@
         <div class="layout-wrapper landing">
             <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="index">
+                    <a class="navbar-brand" href="/">
                         <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-dark rounded" width="150px" height="100px" alt="logo dark" height="17">
                         <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-light rounded" width="150px" height="100px" alt="logo light"
                             height="17">
@@ -56,11 +56,7 @@
                             </li>
                         </ul>
 
-                        <div class="">
-                            <a href="auth-signin-basic" class="btn btn-link fw-medium text-decoration-none text-dark">Sign
-                                in</a>
-                            <a href="auth-signup-basic" class="btn btn-primary">Sign Up</a>
-                        </div>
+                        
                     </div>
 
                 </div>
@@ -75,9 +71,9 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-sm-10">
                             <div class="text-center mt-lg-5 pt-5">
-                                <h3  style="color: rgb(15, 7, 71);">COASTAL ZONE MINING ASSOCIATION</h3>                              
+                                <h3  style="color: rgb(239, 224, 15);">COASTAL ZONE MINING ASSOCIATION</h3>                              
                                 <h1 class="display-6 fw-semibold mb-3 lh-base text-white">Transforming Small-Scale Mining:  <span id="typed-text" style="color: rgb(15, 7, 71);"></span></h1>
-                                <p class="lead lh-base" style="color: rgb(14, 13, 11)">Small scale miners and their communities in the coastal designated areas.
+                                <p class="lead lh-base" style="color: rgb(235, 240, 241)">Small scale miners and their communities in the coastal designated areas.
                                 </p>
                                 <br>
                                 <br>
@@ -100,7 +96,7 @@
                                             <img src="<?php echo e(URL::asset('assets/images/mine1.png')); ?>" class="d-block w-100 rounded" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/construction/b.jpg')); ?>" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/b.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" class="d-block w-100" alt="...">
@@ -109,10 +105,10 @@
                                             <img src="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/mine4.jpg')); ?>" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine15.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/mine5.jpg')); ?>" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine17.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" class="d-block w-100" alt="...">
@@ -151,9 +147,9 @@
                                 <div class="swiper trusted-client-slider mt-sm-5 mt-4 mb-sm-5 mb-4" dir="ltr">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="client-images">
-                                                <img src="<?php echo e(URL::asset('assets/images/clients/amazon.svg')); ?>" alt="client-img"
-                                                    class="mx-auto img-fluid d-block">
+                                            <div class="">
+                                                <img src="<?php echo e(URL::asset('assets/images/mine11.png')); ?>" height="200px" alt="client-img"
+                                                    class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -176,9 +172,9 @@
                                         </div>
                                         
                                         <div class="swiper-slide">
-                                            <div class="client-images">
-                                                <img src="<?php echo e(URL::asset('assets/images/clients/verizon.svg')); ?>" alt="client-img"
-                                                    class="mx-auto img-fluid d-block">
+                                            <div class="">
+                                                <img src="<?php echo e(URL::asset('assets/images/mine12.png')); ?>" height="100px" alt="client-img"
+                                                    class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
@@ -196,16 +192,18 @@
             <!-- start services -->
             <section class="section" id="services">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-start">
                         <div class="col-lg-8">
-                            <div class="text-center mb-5">
+                            <div class="text-start mb-5">
                                 <h1 class="display-6 fw-semibold mb-3 lh-base" style="color: rgb(15, 7, 71);">Our Programs and Initiatives</h1>
-                                <p class="text-muted">AMS & Sons Construction Limited provides quality turn-key services to the Government of
-                                    Ghana, District Assemblies, Private contractors and various government agencies. Our key
-                                    services include;</p>
+                                <p class="text-muted">CZMA small scale mining support programs focuses on professionalism mainly on geological investigations,mining ,processing and development of hard Rock gold small scale mining operations in designated and demarcated or block out areas.
+                                    CZMA strongly believes the road path to Ghana,s transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment,hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard Rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
                             </div>
                         </div>
                         <!-- end col -->
+                        <div class="col-lg-3">
+                            <img src="<?php echo e(URL::asset('assets/images/mine13.png')); ?>"  height="300px" alt="">
+                        </div>
                     </div>
                     <!-- end row -->
 
@@ -482,7 +480,7 @@
                     <div class="row align-items-center mt-5 pt-lg-5 gy-4">
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="<?php echo e(URL::asset('assets/images/construction/bulldozer.jpg')); ?>" alt="" class="img-fluid rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine17.jpg')); ?>" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -492,28 +490,7 @@
                                 <p class="mb-4"> Workshops on mercury-free mining and best practices.
                                     Education on environmental conservation and climate adaptation.</p>
 
-                                <div class="vstack gap-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                            
-                                                <div class="avatar-title bg-transparent rounded-circle h2" style="color: rgb(15, 7, 71);">
-                                                    <i class="ri-phone-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- end col -->
@@ -528,34 +505,13 @@
                                 <p class="mb-4"> Partnering with donors, NGOs, and private investors to fund key projects.
                                     Advocating for policy reforms that streamline licensing and regulation.</p>
 
-                                <div class="vstack gap-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-shrink-0 me-2">
-                                            <div class="avatar-xs icon-effect">
-                                            
-                                                <div class="avatar-title bg-transparent rounded-circle h2" style="color: rgb(15, 7, 71);">
-                                                    <i class="ri-phone-fill"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">Contact for hiring: <span class="fw-medium"> +233 45695453</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        
-                                        <div class="flex-grow-1">
-                                            <p class="mb-0">We understand the importance of keeping your project on schedule. Our equipment is delivered promptly to your site, ready for use.</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="<?php echo e(URL::asset('assets/images/construction/bulldozer.jpg')); ?>" alt="" class="img-fluid rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine10.jpg')); ?>" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         
@@ -743,7 +699,7 @@
                                 <div>
                                     <i class="ri-double-quotes-l text-white display-3"></i>
                                 </div>
-                                <h4 class="text-white mb-5"><span class="text-white"></span>Client Testimonials</h4>
+                                <h4 class="text-white mb-5"><span class="text-white"></span>Success Stories</h4>
 
                                 <!-- Swiper -->
                                 <div class="swiper client-review-swiper rounded" dir="ltr">
@@ -752,11 +708,11 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"AMS & Sons exceeded our expectations with their timely delivery and attention to detail on our highway project. Their team was professional and highly skilled."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"In just two years, CZMA trained over 300 miners in mercury-free mining techniques. This initiative reduced mercury use in small-scale mining operations by 80%, significantly improving the health of miners and local ecosystems. As a result, previously contaminated water bodies were rehabilitated, restoring access to clean water for nearby communities."</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Samuel Owusu</h5>
-                                                            <p>- Client</p>
+                                                            <h5 class="text-white">Mercury-Free Mining Success</h5>
+                                                            <p>- Transforming Mining in Gomoa West</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -767,12 +723,12 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"AMS & Sons Construction has been an essential partner in our road development projects. Their professionalism and commitment to quality are unmatched. From planning to execution, they delivered on time, within budget, and exceeded our expectations. 
-                                                            The roads they've built have greatly improved transportation in our community. We look forward to working with them again."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"CZMA's vocational training programs have empowered over 200 women with skills in tailoring, catering, and jewelry making. These women now run small businesses, earning sustainable incomes and supporting their families. One participant, Akosua Mensah, shared, "This program gave me the tools to become self-reliant. 
+                                                            I’m no longer dependent on mining for income.""</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Abena Owusu, CEO</h5>
-                                                            <p> – Elite Building Solutions</p>
+                                                            <h5 class="text-white">Uplifting Young Women</h5>
+                                                            <p> – Women Empowerment Through Vocational Training</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -783,12 +739,12 @@
                                             <div class="row justify-content-center">
                                                 <div class="col-10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 ff-secondary mb-4">"We hired AMS & Sons Construction for a large-scale infrastructure project, and they truly delivered. Their team was highly skilled and communicative throughout the entire process. 
-                                                            The quality of their work speaks for itself, and their attention to detail ensures that the project was completed to the highest standards. I highly recommend them for any construction needs."</p>
+                                                        <p class="fs-20 ff-secondary mb-4">"Through land rehabilitation initiatives, CZMA transformed over 50 hectares of degraded mining land into productive farmland. Farmers now grow crops like cassava and maize, 
+                                                            boosting local food security and providing alternative income streams."</p>
 
                                                         <div>
-                                                            <h5 class="text-white">Kwame Mensah, Project Manager</h5>
-                                                            <p>– Accra Roadworks</p>
+                                                            <h5 class="text-white">Reviving Farmlands</h5>
+                                                            <p>– Rehabilitated Mining Sites for Agriculture</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -923,7 +879,7 @@
                                         </a>
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
+                                    <h5 class="mb-1"><a href="/rita-profile class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Board Chair</p>
                                 </div>
                             </div>
@@ -1169,12 +1125,11 @@
                         <div class="col-lg-4 mt-4">
                             <div>
                                 <div>
-                                    <img src="<?php echo e(URL::asset('assets/images/logo-light.png')); ?>" alt="logo light" height="17">
+                                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" alt="logo light" height="17">
                                 </div>
                                 <div class= mt-4 fs-13">
-                                    <p>Premium Multipurpose Admin & Dashboard Template</p>
-                                    <p class="ff-secondary">You can build any type of web application like eCommerce, CRM, CMS, Project
-                                        management apps, Admin Panels, etc using Velzon.</p>
+                                    <p>Transforming Small-Scale Mining</p>
+                                    <p class="ff-secondary">Small scale miners and their communities in the coastal designated areas</p>
                                 </div>
                             </div>
                         </div>
@@ -1184,7 +1139,7 @@
                                 <div class="col-sm-4 mt-4">
                                     <h5 class="text-white mb-0">Coastal Zone Mining Association<div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
-                                            <li><a href="pages-profile">About Us</a></li>
+                                            <li><a href="#reviews">About Us</a></li>
                                            
                                             <li><a href="apps-projects-overview">Projects</a></li>
                                             <li><a href="pages-timeline">Timeline</a></li>
@@ -1195,7 +1150,7 @@
                                     <h5 class="text-white mb-0">Our Pages</h5>
                                     <div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
-                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="gallery">Gallery</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Health & Safety</a></li>
                                             <li><a href="#">Deals</a></li>
@@ -1224,7 +1179,7 @@
                                 <p class="copy-rights mb-0">
                                     <script>
                                         document.write(new Date().getFullYear())
-                                    </script> © Velzon - Themesbrand
+                                    </script> © Optocodes Innovations
                                 </p>
                             </div>
                         </div>

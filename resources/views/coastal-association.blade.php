@@ -117,10 +117,10 @@
                                             <img src="{{ URL::asset('assets/images/mine3.jpg') }}" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine4.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="{{ URL::asset('assets/images/mine15.jpg') }}" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine5.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="{{ URL::asset('assets/images/mine17.jpg') }}" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="{{ URL::asset('assets/images/mine6.jpg') }}" class="d-block w-100" alt="...">
@@ -190,7 +190,7 @@
                                         </div> --}}
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="client-img"
+                                                <img src="{{ URL::asset('assets/images/mine12.png') }}" height="100px" alt="client-img"
                                                     class="img-fluid">
                                             </div>
                                         </div>
@@ -209,16 +209,18 @@
             <!-- start services -->
             <section class="section" id="services">
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-start">
                         <div class="col-lg-8">
-                            <div class="text-center mb-5">
+                            <div class="text-start mb-5">
                                 <h1 class="display-6 fw-semibold mb-3 lh-base" style="color: rgb(15, 7, 71);">Our Programs and Initiatives</h1>
-                                <p class="text-muted">AMS & Sons Construction Limited provides quality turn-key services to the Government of
-                                    Ghana, District Assemblies, Private contractors and various government agencies. Our key
-                                    services include;</p>
+                                <p class="text-muted">CZMA small scale mining support programs focuses on professionalism mainly on geological investigations,mining ,processing and development of hard Rock gold small scale mining operations in designated and demarcated or block out areas.
+                                    CZMA strongly believes the road path to Ghana,s transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment,hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard Rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
                             </div>
                         </div>
                         <!-- end col -->
+                        <div class="col-lg-3">
+                            <img src="{{ URL::asset('assets/images/mine13.png') }}"  height="300px" alt="">
+                        </div>
                     </div>
                     <!-- end row -->
 
@@ -517,7 +519,7 @@
                     <div class="row align-items-center mt-5 pt-lg-5 gy-4">
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/mine9.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="{{ URL::asset('assets/images/mine17.jpg') }}" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -1275,7 +1277,7 @@
                                         </a>
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
+                                    <h5 class="mb-1"><a href="/rita-profile class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Board Chair</p>
                                 </div>
                             </div>
@@ -1429,7 +1431,7 @@
                                 </div>
                                 {{-- <div class="mt-4">
                                     <h5 class="fs-13 text-uppercase">P.O.Box KS 14106</h5>
-                                    <div class="ff-secondary fw-semibold">Adum, Kumasi<br/><span class="text-muted">info@czma.org</span></div>
+                                    <div class="ff-secondary fw-semibold">Adum, Kumasi<br/><span class="text-muted">info@CZMA.org</span></div>
                                 </div> --}}
                                 
                                 <div class="mt-4">
@@ -1549,7 +1551,7 @@
                                     <h5 class="text-white mb-0">Our Pages</h5>
                                     <div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
-                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="gallery">Gallery</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Health & Safety</a></li>
                                             <li><a href="#">Deals</a></li>

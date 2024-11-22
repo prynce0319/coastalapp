@@ -23,6 +23,14 @@ Route::get('/', function () {
     return view('coastal-association');
 });
 
+Route::get('/gallery', function () {
+    return view('coastal-gallery');
+});
+
+Route::get('/rita-profile', function () {
+    return view('coastal-profile');
+});
+
 //Update User Details
 Route::post('/update-profile/{id}', [App\Http\Controllers\HomeController::class, 'updateProfile'])->name('updateProfile');
 Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class, 'updatePassword'])->name('updatePassword');
