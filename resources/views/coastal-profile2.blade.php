@@ -19,15 +19,15 @@
         <div class="row g-4">
             <div class="col-auto">
                 <div class="avatar-lg">
-                    <img src="{{ URL::asset('assets/images/rita.jpg') }}"
+                    <img src="{{ URL::asset('assets/images/henry.jpg') }}"
                         alt="user-img" class="img-thumbnail rounded-circle" />
                 </div>
             </div>
             <!--end col-->
             <div class="col">
                 <div class="p-2">
-                    <h3 class="text-white mb-1">Dr. Rita Owusu-Amankwah</h3>
-                    <p class="text-white-75">Board Chair</p>
+                    <h3 class="text-white mb-1">Mr. Henry Ben–Smith </h3>
+                    <p class="text-white-75">Chief Executive Officer</p>
                     <div class="hstack text-white-50 gap-1">
                         <div class="me-2"><i
                                 class="ri-map-pin-user-line me-1 text-white-75 fs-16 align-middle"></i>Accra,
@@ -68,29 +68,18 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title mb-3">About</h5>
-                                        <p>Dr. Rita Owusu-Amankwah is a seasoned Social Development expert with skills and hands-on working experience in baseline studies, midterm and end term evaluation, research, strategic partnerships management, 
-                                            organization development, project development and management, policy development, government relations, advocacy, 
-                                            sustainable agricultural value chains, voluntary sustainability standards, 
-                                            human right due diligence, women empowerment and entrepreneurship, social  
-                                            and child protection,  capacity strengthening, socio-economic research, and multi-stakeholder engagements. 
-                                            She has worked on World Bank Funded projects as Social Development and Gender Expert for 
-                                            Ghana Landscape Restoration and Small Scale Mining Protect, Ghana Productive Safety Net Project and currently, 
-                                            Ghana Tree Crop Diversification Project. Additionally, she has provided consultancy services for UNDP Ghana, 
-                                            Fair Trade International/Fair Trade Africa, Tony’s Chocolonely, World Cocoa Foundation, Solidaridad West Africa, 
-                                            GIZ, JICA/ International Development Center of Japan Inc, World University Services of Canada and some Multinational Companies on Cocoa sustainability, sustainable agricultural policy development and child protection, 
-                                            and Farmers’ organizations such as Kuapa Kokoo Farmers Union. She contributed to the development of the Ghana Cocoa Sector Development Strategy II, 
-                                            National Child Labour Framework, and National Plan of Action on Child Labour. </p>
-                                        <p>She was the Social Protection Director (World bank technical support to the Ministry of Gender, 
-                                            Children and Social Protection, Ghana); Country Coordinator for Ghana Cocoa Platform, 
-                                            funded by UNDP, Country Programme Coordinator for the US Department of Labour (USDOL) and 
-                                            National Confectionary Association funded United Nations International Labour Organisation’s (ILO) 
-                                            West Africa Cocoa/Commercial Agriculture Project (WACAP) that pioneered interventions to eliminate 
-                                            child labour in cocoa farms in West Africa. She was the lead consultant for the Baseline Study for 
-                                            WUSC-EUMC INVEST project in 2020; and the study on “Description and Assessment of Existing Monitoring and 
-                                            Response Systems for Child Labour of Kuapa Kokoo Farmers Union” Commissioned by Fair Trade International 
-                                            and Fair Trade Africa in 2022. She holds degree of Doctor from Wageningen University, School of Social 
-                                            Sciences (WASS), Post graduate Certificate on Organizational from Development Institute (ODI), MA Economics 
-                                            & Industrial Management and BA Social Science from Kwame Nkrumah University of Science and Technology (KNUST).</p>
+                                        <p>A visionary leader and expert, Henry Ben - Smith has made significant strides on promoting 
+                                            sustainable small scale mining practices and social responsibility in Ghana’s 
+                                            small scale mining sector. As founder and Chairman of Coastal Zone Small Scale Mining 
+                                            Association, Henry Ben - Smith has spearheaded innovative initiatives to transform the 
+                                            small-scale mining landscape through registration of illegal miners in to cooperatives, 
+                                            and groups on Newmont Akyem Project in the eastern region, and formerly Owere Mines, now 
+                                            Northern Ashanti gold mines in Konongo, under the Ministry of Lands and Natural Resources 
+                                            special initiative by the then Minister Cecilia Banaman.</p>
+                                        <p>Under his leadership, Henry Ben - Smith has facilitated a landmark intervention between large- and small-scalemining companies to cede off areas for the transformation of illegal miners to be absorbed into government framework for sustainable development. He is also a gold smith, and a member of the federation of Association of Ghanian Jewellers.  
+                                            Mr. Henry Ben – Smith, is also the founder and CEO of H & S Mining Group and Investment Limited, and general secretary for Asante Akyem Small Scale Miners Society Limited, also in Konongo. He is also the Managing Director of Unity Trade Capital, Ghana Limited. His wealth of experiences transcends Ghana, such as Bahrain, for a United Nation sponsored conference, dub ’First Entrepreneurial, and Financial Forum, UK, Italy and USA.
+                                            Mr. Henry Ben – Smith’s main current focus in on advocacy for protection and development of the designated areas in and around the Coastal Zone in collaboration with District Assemblies and Ghana Geological Survey Authority.
+                                            </p>
                                         <div class="row">
                                             <div class="col-6 col-md-4">
                                                 <div class="d-flex mt-4">
@@ -102,7 +91,7 @@
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
                                                         <p class="mb-1">Designation :</p>
-                                                        <h6 class="text-truncate mb-0">Board Chair</h6>
+                                                        <h6 class="text-truncate mb-0">Chief Executive Officer</h6>
                                                     </div>
                                                 </div>
                                             </div>

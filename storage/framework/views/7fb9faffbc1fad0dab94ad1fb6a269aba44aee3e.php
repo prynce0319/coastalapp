@@ -202,7 +202,7 @@
                         </div>
                         <!-- end col -->
                         <div class="col-lg-4">
-                            <img src="<?php echo e(URL::asset('assets/images/mine13.png')); ?>"  height="300px" alt="cadastral">
+                            <img src="<?php echo e(URL::asset('assets/images/mine21.png')); ?>"  height="300px" alt="cadastral">
                         </div>
                     </div>
                     <!-- end row -->
@@ -313,7 +313,25 @@
                         </div>
                         <!-- end col -->
 
-                        
+                        <div class="col-lg-4">
+                            <div class="d-flex p-3">
+                                <div class="flex-shrink-0 me-3">
+                                    <div class="avatar-sm icon-effect">
+                                        <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
+                                            <i class="ri-stack-line fs-36"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fs-18">Collaboration with Ausbuild Construction</h5>
+                                    <p class="text-muted my-3 ff-secondary">As part of our community led development CZMA has collaborated with Ausbuild construction Ghana limited to support the District development growth agenda in roads construction, health facilities and affordable homes for the poor.</p>
+                                    <div>
+                                        <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
                         
                     </div>
                     <!-- end row -->
@@ -879,7 +897,7 @@
                                         </a>
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="/rita-profile class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
+                                    <h5 class="mb-1"><a href="/rita-profile" class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Board Chair</p>
                                 </div>
                             </div>
@@ -899,7 +917,7 @@
                                         </a>
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Mr. Henry Ben–Smith </a></h5>
+                                    <h5 class="mb-1"><a href="/henry-profile" class="text-body" style="font-size: 15px">Mr. Henry Ben–Smith </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">CEO, CZMA</p>
                                 </div>
                             </div>
@@ -919,7 +937,7 @@
                                         </a>
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Mr. Ishmael Afenyo Adanya </a></h5>
+                                    <h5 class="mb-1"><a href="/ishmael-profile" class="text-body" style="font-size: 15px">Mr. Ishmael Afenyo Adanya </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Executive Secretary & CFO</p>
                                     
                                 </div>

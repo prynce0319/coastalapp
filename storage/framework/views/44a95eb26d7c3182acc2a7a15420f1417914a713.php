@@ -1,25 +1,25 @@
-@extends('layouts.master-without-nav')
-@section('title')
-    @lang('translation.profile')
-@endsection
-@section('css')
-    <link rel="stylesheet" href="{{ URL::asset('assets/libs/swiper/swiper.min.css') }}">
-@endsection
-@section('content')
+
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->get('translation.profile'); ?>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
+    <link rel="stylesheet" href="<?php echo e(URL::asset('assets/libs/swiper/swiper.min.css')); ?>">
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
 <div class="container-fluid">
     <div class="row">
-        <a href="/"><img src="{{ URL::asset('assets/images/coastal-logo.jpg') }}" width="120px" height="120px" alt="Home">home</a>
+        <a href="/"><img src="<?php echo e(URL::asset('assets/images/coastal-logo.jpg')); ?>" width="120px" height="120px" alt="Home">home</a>
     </div>
     <div class="profile-foreground position-relative mx-n4 mt-n4">
         <div class="profile-wid-bg">
-            <img src="{{ URL::asset('assets/images/mine15.jpg') }}" alt="" class="profile-wid-img" />
+            <img src="<?php echo e(URL::asset('assets/images/mine15.jpg')); ?>" alt="" class="profile-wid-img" />
         </div>
     </div>
     <div class="pt-4 mb-4 mb-lg-3 pb-lg-4">
         <div class="row g-4">
             <div class="col-auto">
                 <div class="avatar-lg">
-                    <img src="{{ URL::asset('assets/images/rita.jpg') }}"
+                    <img src="<?php echo e(URL::asset('assets/images/rita.jpg')); ?>"
                         alt="user-img" class="img-thumbnail rounded-circle" />
                 </div>
             </div>
@@ -107,21 +107,7 @@
                                                 </div>
                                             </div>
                                             <!--end col-->
-                                            {{-- <div class="col-6 col-md-4">
-                                                <div class="d-flex mt-4">
-                                                    <div class="flex-shrink-0 avatar-xs align-self-center me-3">
-                                                        <div
-                                                            class="avatar-title bg-light rounded-circle fs-16 text-primary">
-                                                            <i class="ri-global-line"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flex-grow-1 overflow-hidden">
-                                                        <p class="mb-1">Website :</p>
-                                                        <a href="#" class="fw-semibold">www.velzon.com</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--end col--> --}}
+                                            
                                         </div>
                                         <!--end row-->
                                     </div>
@@ -143,10 +129,12 @@
     <!--end row-->
 </div>
     
-@endsection
-@section('script')
-    <script src="{{ URL::asset('assets/libs/swiper/swiper.min.js') }}"></script>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('script'); ?>
+    <script src="<?php echo e(URL::asset('assets/libs/swiper/swiper.min.js')); ?>"></script>
 
-    <script src="{{ URL::asset('assets/js/pages/profile.init.js') }}"></script>
-    <script src="{{ URL::asset('/assets/js/app.min.js') }}"></script>
-@endsection
+    <script src="<?php echo e(URL::asset('assets/js/pages/profile.init.js')); ?>"></script>
+    <script src="<?php echo e(URL::asset('/assets/js/app.min.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master-without-nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\coastalapp\resources\views/coastal-profile.blade.php ENDPATH**/ ?>
