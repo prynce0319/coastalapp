@@ -201,8 +201,8 @@
                             </div>
                         </div>
                         <!-- end col -->
-                        <div class="col-lg-3">
-                            <img src="<?php echo e(URL::asset('assets/images/mine13.png')); ?>"  height="300px" alt="">
+                        <div class="col-lg-4">
+                            <img src="<?php echo e(URL::asset('assets/images/mine13.png')); ?>"  height="300px" alt="cadastral">
                         </div>
                     </div>
                     <!-- end row -->
