@@ -39,6 +39,13 @@ Route::get('/ishmael-profile', function () {
     return view('coastal-profile3');
 });
 
+Route::get('/frank-profile', function () {
+    return view('coastal-profile4');
+});
+
+Route::get('/priscilla-profile', function () {
+    return view('coastal-profile5');
+});
 //Update User Details
 Route::post('/update-profile/{id}', [App\Http\Controllers\HomeController::class, 'updateProfile'])->name('updateProfile');
 Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class, 'updatePassword'])->name('updatePassword');

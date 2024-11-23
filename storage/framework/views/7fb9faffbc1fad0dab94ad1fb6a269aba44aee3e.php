@@ -44,9 +44,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#features">Activity</a>
                             </li>
-                            
                             <li class="nav-item">
                                 <a class="nav-link" href="#reviews">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery">Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#team">Team</a>
@@ -546,8 +551,31 @@
                 <div class="container">
                     <div class="row align-items-center gy-4">
                         <div class="col-lg-6 col-sm-7 mx-auto">
-                            <div>
-                                <img src="<?php echo e(URL::asset('assets/images/mine19.jpg')); ?>" alt="" class="img-fluid mx-auto img-thumbnail rounded">
+                            <div class="card explore-box card-animate border">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        
+                                        
+                                    </div>
+                                    <div class="explore-place-bid-img overflow-hidden rounded">
+                                        <iframe width="500" height="300" src="https://www.youtube.com/embed/glF9rObAp2A" title="Mining in Ghana: Opportunities for Creating Partnerships." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="card explore-box card-animate border">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        
+                                        
+                                    </div>
+                                    <div class="explore-place-bid-img overflow-hidden rounded">
+                                        <iframe width="500" height="300" src="https://www.youtube.com/embed/glF9rObAp2A" title="Mining in Ghana: Opportunities for Creating Partnerships." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -891,30 +919,31 @@
             <!-- end counter -->
 
             <!-- start Work Process -->
-            <section class="section">
+            <section class="section" id="about">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="text-start mb-5">
                                 <h3 class="mb-3 fw-semibold" style="color: rgb(15, 7, 71);">About Us</h3>
-                                <p class="mb-4 ff-secondary"><span class="fw-bold">Who We Are:</span>  <br>
+                                <p class="mb-4 ff-secondary"><span class="fw-bold text-primary">Who We Are:</span>  <br>
                                     The Coastal Zone Mining Association (CZMA) is a trailblazing non-profit organization advocating for integrated responsible small scale mining in Ghana.
                                     
-                                    <br><span class="fw-bold">What We Do: </span><br>
+                                    <br><br><span class="fw-bold text-primary">What We Do: </span><br>
                                     We work hand in hand with We work hard in hand with Mainly District Assemblies to ensure that mining activities are conducted responsibly. Through education, advocacy, and capacity building, CZMA is creating a model that respects both the people and planet with due regard to climate change affecting mining and Agriculture and ecosystem in the coastal areas of Ghana.
                                     
-                                    <br><span class="fw-bold">Our Reach: </span><br>
+                                    <br><br><span class="fw-bold text-primary">Our Reach: </span><br>
                                     Operating primarily in Ghana's Central Region, our projects cover areas like Winneba, Gomoa, and Elmina, with plans to expand across the nation.
                                     
-                                    <br><br><span class="fw-bold">Why We Exist: </span>
-                                    <ul>
+                                    <br><br><span class="fw-bold text-primary">Why We Exist: </span>
+                                    <ol>
                                         <li>To transform this subsector of the mining industry into a niche potential investment.</li>
                                         <li>To partner local community banks to provide financial support services to licenced small scale miners within our jurisdiction.</li>
                                         <li>To mitigate the adverse effects of illegal mining (galamsey).</li>
+                                        <li>Organising investment fora to attract investment into the small scale mining subsector.</li>
                                         <li>To provide small-scale miners with access to essential resources and training.</li>
                                         <li>To reduce unemployment through alternative livelihoods.</li>
                                         <li>To conserve Ghana’s rich natural resources for future generations.</li>
-                                    </ul>         
+                                    </ol>         
                                 </p>
                                 
                                 <h3 class="mb-3 fw-semibold" style="color: rgb(15, 7, 71);">Mission</h3>
@@ -1001,7 +1030,7 @@
                                         
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Mr. Frank Dziwornu</a></h5>
+                                    <h5 class="mb-1"><a href="frank-profile" class="text-body" style="font-size: 15px">Mr. Frank Dziwornu</a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Head of Projects</p>
                                     
                                 </div>
@@ -1036,7 +1065,7 @@
                                         
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Miss. Priscilla Obour
+                                    <h5 class="mb-1"><a href="priscilla-profile" class="text-body" style="font-size: 15px">Miss. Priscilla Obour
                                     </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Women/Programs coordinator</p>
                                     
