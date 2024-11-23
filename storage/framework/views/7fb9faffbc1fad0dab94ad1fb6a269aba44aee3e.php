@@ -613,19 +613,15 @@
             <!-- end features -->
 
             <!-- start faqs -->
-            <section class="section">
+            <section class="section" id="questions">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="text-center mb-5">
                                 <h3 class="mb-3 fw-semibold">Frequently Asked Questions</h3>
-                                <p class="text-muted mb-4 ff-secondary">If you can not find answer to your question in our FAQ, you can
-                                    always contact us or email us. We will answer you shortly!</p>
+                                <p class="text-muted mb-4 ff-secondary">Here are some Frequently Asked Questions about our association!</p>
 
-                                <div class="hstack gap-2 justify-content-center">
-                                    <button type="button" class="btn btn-primary btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
-                                    <button type="button" class="btn btn-info btn-label rounded-pill"><i class="ri-twitter-line label-icon align-middle rounded-pill fs-16 me-2"></i> Send Us Tweet</button>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -718,7 +714,7 @@
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center mb-2">
                                 <div class="flex-shrink-0 me-1">
-                                    <i class="ri-shield-keyhole-line fs-24 align-middle text-success me-1"></i>
+                                    <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
                                 </div>
                                 <div class="flex-grow-1">
                                     <h5 class="mb-0 fw-semibold">More Questions</h5>
@@ -945,8 +941,7 @@
                         <div class="col-lg-8">
                             <div class="text-center mb-5">
                                 <h3 class="mb-3 fw-semibold">Our <span style="color: rgb(15, 7, 71);">Team</span></h3>
-                                <p class="text-muted mb-4 ff-secondary">To achieve this, it would be necessary to have uniform grammar,
-                                    pronunciation and more common words. If several languages coalesce the grammar.</p>
+                                <p class="text-muted mb-4 ff-secondary">Our experienced  team work protrays</p>
                             </div>
                         </div>
                     </div>
@@ -957,12 +952,7 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/rita.jpg')); ?>" alt="" class="img-fluid rounded">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/rita-profile" class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
@@ -977,12 +967,7 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/henry.jpg')); ?>" alt="" class="img-fluid rounded">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/henry-profile" class="text-body" style="font-size: 15px">Mr. Henry Ben–Smith </a></h5>
@@ -997,12 +982,7 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/ishmael.jpg')); ?>" alt="" class="img-fluid rounded">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/ishmael-profile" class="text-body" style="font-size: 15px">Mr. Ishmael Afenyo Adanya </a></h5>
@@ -1018,15 +998,10 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/frank.jpg')); ?>" alt="" class="img-fluid rounded">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Mr. Frank Dziwornu</a></h5>
+                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Mr. Frank Dziwornu</a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Head of Projects</p>
                                     
                                 </div>
@@ -1042,15 +1017,10 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/users/user-dummy-img.jpg')); ?>" alt="" class="img-fluid rounded-circle">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Mr. Prince Ben-Smith</a></h5>
+                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Mr. Prince Ben-Smith</a></h5>
                                     <p class="text-muted mb-0 ff-secondary">IT Manager</p>
                                     
                                 </div>
@@ -1063,15 +1033,10 @@
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/priscilla.jpg')); ?>" alt="" class="img-fluid rounded">
-                                        <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a>
+                                        
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="pages-profile" class="text-body" style="font-size: 15px">Miss. Priscilla Obour
+                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Miss. Priscilla Obour
                                     </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Women/Programs coordinator</p>
                                     
@@ -1083,14 +1048,7 @@
                         
                     </div>
                     <!-- end row -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-center mt-2">
-                                <a href="pages-team" style="background-color: rgb(15, 7, 71);" class="btn text-white">View All Members <i
-                                        class="ri-arrow-right-line ms-1 align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -1104,7 +1062,7 @@
                         <div class="col-lg-8">
                             <div class="text-center mb-5">
                                 <h3 class="mb-3 fw-semibold">Get In Touch</h3>
-                                <p class="text-muted mb-4 ff-secondary">To learn more about our Construction companyvices or to request a quote.</p>
+                                <p class="text-muted mb-4 ff-secondary">To learn more about our Association. Reach out to us</p>
                             </div>
                         </div>
                     </div>
@@ -1115,9 +1073,12 @@
                             <div>
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-muted text-uppercase">Address:</h5>
-                                    <div class="ff-secondary fw-semibold">Coastal Zone Mining Association <br/>Gomoa West District <br> Central Region, Ghana</div>
+                                    <div class="ff-secondary fw-semibold text-primary">Coastal Zone Mining Association <br/>Opposite Lake Lane Guest house and restaurant <br>Off Apam junction through the main road to Apam - Mumford under Gomoa West District</div>
                                 </div>
-                                
+                                <div class="mt-4">
+                                    <h5 class="fs-13 text-uppercase">Gomoa West District</h5>
+                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzoneminingassociation@gmail.com</strong> </span></div>
+                                </div>
                                 
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
@@ -1128,49 +1089,7 @@
                         <!-- end col -->
                         <div class="col-lg-8">
                             <div>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="mb-4">
-                                                <label for="name" class="form-label fs-13">Name</label>
-                                                <input name="name" id="name" type="text"
-                                                    class="form-control bg-light border-light" placeholder="Your name*">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mb-4">
-                                                <label for="email" class="form-label fs-13">Email</label>
-                                                <input name="email" id="email" type="email"
-                                                    class="form-control bg-light border-light" placeholder="Your email*">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="mb-4">
-                                                <label for="subject" class="form-label fs-13">Subject</label>
-                                                <input type="text" class="form-control bg-light border-light" id="subject"
-                                                    name="subject" placeholder="Your Subject.." />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="mb-3">
-                                                <label for="comments" class="form-label fs-13">Message</label>
-                                                <textarea name="comments" id="comments" rows="3"
-                                                    class="form-control bg-light border-light"
-                                                    placeholder="Your message..."></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-end">
-                                            <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary"
-                                                value="Send Message">
-                                        </div>
-                                    </div>
-                                </form>
+                                
                             </div>
                         </div>
                     </div>
@@ -1223,12 +1142,11 @@
                         <div class="col-lg-7 ms-lg-auto">
                             <div class="row">
                                 <div class="col-sm-4 mt-4">
-                                    <h5 class="text-white mb-0">Coastal Zone Mining Association<div class="text-muted mt-3">
+                                    <h5 class="text-warning mb-0">Coastal Zone Mining Association<div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
                                             <li><a href="#reviews">About Us</a></li>
                                            
-                                            <li><a href="apps-projects-overview">Projects</a></li>
-                                            <li><a href="pages-timeline">Timeline</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -1237,9 +1155,8 @@
                                     <div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
                                             <li><a href="gallery">Gallery</a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">Health & Safety</a></li>
-                                            <li><a href="#">Deals</a></li>
+                                            <li><a href="#services">Services</a></li>
+                                            
                                             
                                         </ul>
                                     </div>
@@ -1248,8 +1165,8 @@
                                     <h5 class="text-white mb-0">Support</h5>
                                     <div class="text-muted mt-3">
                                         <ul class="list-unstyled ff-secondary footer-list">
-                                            <li><a href="pages-faqs">FAQ</a></li>
-                                            <li><a href="pages-faqs">Contact</a></li>
+                                            <li><a href="#questions">FAQ</a></li>
+                                            <li><a href="#contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
