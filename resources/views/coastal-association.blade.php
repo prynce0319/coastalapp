@@ -1482,7 +1482,7 @@
                                         </a> --}}
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Mr. Prince Ben-Smith</a></h5>
+                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">N/A</a></h5>
                                     <p class="text-muted mb-0 ff-secondary">IT Manager</p>
                                     
                                 </div>
