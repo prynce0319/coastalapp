@@ -1551,7 +1551,7 @@
                                 </div>
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-uppercase">Gomoa West District</h5>
-                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzoneminingassociation@gmail.com</strong> </span></div>
+                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzonemining@gmail.com</strong> </span></div>
                                 </div>
                                 
                                 <div class="mt-4">
