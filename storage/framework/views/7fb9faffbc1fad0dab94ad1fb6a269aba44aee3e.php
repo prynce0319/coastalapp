@@ -98,7 +98,7 @@
                                 <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                                     <div class="carousel-inner shadow-lg p-2 bg-white rounded">
                                         <div class="carousel-item active" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/mine1.png')); ?>" class="d-block w-100 rounded" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine44.png')); ?>" class="d-block w-100 rounded" alt="...g">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/b.jpg')); ?>" class="d-block w-100" alt="...">
@@ -1045,12 +1045,12 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="<?php echo e(URL::asset('assets/images/users/user-dummy-img.jpg')); ?>" alt="" class="img-fluid rounded-circle">
+                                        <img src="<?php echo e(URL::asset('assets/images/amoako.jpg')); ?>" alt="" class="img-fluid rounded">
                                         
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">Mr. Prince Ben-Smith</a></h5>
-                                    <p class="text-muted mb-0 ff-secondary">IT Manager</p>
+                                    <h5 class="mb-1"><a href="amoakoh-profile" class="text-body" style="font-size: 15px">Amoakoh Emmanuel Ochere</a></h5>
+                                    <p class="text-muted mb-0 ff-secondary">Project Coordinator</p>
                                     
                                 </div>
                             </div>

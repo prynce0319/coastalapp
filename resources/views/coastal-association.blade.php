@@ -1473,7 +1473,7 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/users/user-dummy-img.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                        <img src="{{ URL::asset('assets/images/amoako.jpg') }}" alt="" class="img-fluid rounded">
                                         {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
                                             class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                             <div class="avatar-title bg-transparent">
@@ -1482,8 +1482,8 @@
                                         </a> --}}
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="#team" class="text-body" style="font-size: 15px">N/A</a></h5>
-                                    <p class="text-muted mb-0 ff-secondary">IT Manager</p>
+                                    <h5 class="mb-1"><a href="amoakoh-profile" class="text-body" style="font-size: 15px">Amoakoh Emmanuel Ochere</a></h5>
+                                    <p class="text-muted mb-0 ff-secondary">Project Coordinator</p>
                                     
                                 </div>
                             </div>
