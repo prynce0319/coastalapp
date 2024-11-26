@@ -202,7 +202,7 @@
                             <div class="text-start mb-5">
                                 <h1 class="display-6 fw-semibold mb-3 lh-base" style="color: rgb(15, 7, 71);">Our Programs and Initiatives</h1>
                                 <p class="text-muted">CZMA small scale mining support programs focuses on professionalism mainly on geological investigations,mining ,processing and development of hard Rock gold small scale mining operations in designated and demarcated or block out areas.
-                                    CZMA strongly believes the road path to Ghana,s transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment,hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard Rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
+                                    CZMA strongly believes the road path to Ghana's transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment,hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard Rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
                             </div>
                         </div>
                         <!-- end col -->
@@ -218,7 +218,7 @@
                                 <div class="flex-shrink-0 me-3">
                                     <div class="avatar-sm icon-effect">
                                         <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
-                                            <i class="ri-pencil-ruler-2-line fs-36"></i>
+                                            <i class="ri-stack-line fs-36"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@
                                 <div class="flex-shrink-0 me-3">
                                     <div class="avatar-sm icon-effect">
                                         <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
-                                            <i class="ri-palette-line fs-36"></i>
+                                            <i class="ri-stack-line fs-36"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@
                                 <div class="flex-shrink-0 me-3">
                                     <div class="avatar-sm icon-effect">
                                         <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
-                                            <i class="ri-lightbulb-flash-line fs-36"></i>
+                                            <i class="ri-stack-line fs-36"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -281,7 +281,7 @@
                                 <div class="flex-shrink-0 me-3">
                                     <div class="avatar-sm icon-effect">
                                         <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
-                                            <i class="ri-customer-service-line fs-36"></i>
+                                            <i class="ri-stack-line fs-36"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -337,18 +337,31 @@
                             </div>
                         </div>
                         <!-- end col -->
-                        
-                    </div>
-                    <!-- end row -->
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="text-center mb-5">
-                                
-                                <a href="#" class="btn text-white" style="background-color: rgb(15, 7, 71);">More Services</a>
+
+                        <div class="col-lg-5">
+                            <div class="d-flex p-3">
+                                <div class="flex-shrink-0 me-3">
+                                    <div class="avatar-sm icon-effect">
+                                        <div style="color: rgb(15, 7, 71);" class="avatar-title bg-transparent rounded-circle">
+                                            <i class="ri-stack-line fs-36"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h5 class="fs-18">Mitigating Social and Gender Inequalities</h5>
+                                    <p class="text-muted my-3 ff-secondary">Women may continue to face barriers in accessing resources, training, and leadership roles in the mining or alternative livelihood sectors. 
+                                        The association is looking to implement gender-sensitive programming that addresses women’s specific needs, Provide targeted training, financial assistance, and leadership development programs for women.</p>
+                                    <div>
+                                        <a href="#" class="fs-13 fw-medium">Learn More <i class="ri-arrow-right-s-line align-bottom"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- end col -->
+                        
                     </div>
+                    <!-- end row -->
+                   
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -1106,7 +1119,7 @@
                                 </div>
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-uppercase">Gomoa West District</h5>
-                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzoneminingassociation@gmail.com</strong> </span></div>
+                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzonemining@gmail.com</strong> </span></div>
                                 </div>
                                 
                                 <div class="mt-4">
