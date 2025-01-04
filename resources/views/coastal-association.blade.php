@@ -1449,7 +1449,7 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/arhin.png') }}" alt="" class="img-fluid rounded">
+                                        <img src="{{ URL::asset('assets/images/arhin.PNG') }}" alt="" class="img-fluid rounded">
                                         {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
                                             class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                             <div class="avatar-title bg-transparent">

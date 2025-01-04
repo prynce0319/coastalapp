@@ -19,7 +19,7 @@
         <div class="row g-4">
             <div class="col-auto">
                 <div class="avatar-lg">
-                    <img src="{{ URL::asset('assets/images/arhin.png') }}"
+                    <img src="{{ URL::asset('assets/images/arhin.PNG') }}"
                         alt="user-img" class="img-thumbnail rounded-circle" />
                 </div>
             </div>
