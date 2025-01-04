@@ -1023,6 +1023,22 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
+                                        <img src="<?php echo e(URL::asset('assets/images/arhin.png')); ?>" alt="" class="img-fluid rounded">
+                                        
+                                    </div>
+                                    <!-- end card body -->
+                                    <h5 class="mb-1"><a href="arhin-profile" class="text-body" style="font-size: 15px">Prof. Emmanuel Arhin</a></h5>
+                                    <p class="text-muted mb-0 ff-secondary">Head of Research</p>
+                                    
+                                </div>
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card">
+                                <div class="card-body text-center p-4">
+                                    <div class="avatar-xl mx-auto mb-4 position-relative">
                                         <img src="<?php echo e(URL::asset('assets/images/ishmael.jpg')); ?>" alt="" class="img-fluid rounded">
                                         
                                     </div>
@@ -1035,6 +1051,10 @@
                             <!-- end card -->
                         </div>
                         <!-- end col -->
+                        
+                    </div>
+                    <!-- end row -->
+                    <div class="row">
                         <div class="col-lg-3 col-sm-6">
                             <div class="card">
                                 <div class="card-body text-center p-4">
@@ -1051,9 +1071,6 @@
                             <!-- end card -->
                         </div>
                         <!-- end col -->
-                    </div>
-                    <!-- end row -->
-                    <div class="row">
                         <div class="col-lg-3 col-sm-6">
                             <div class="card">
                                 <div class="card-body text-center p-4">
