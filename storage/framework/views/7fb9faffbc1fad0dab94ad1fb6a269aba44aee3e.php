@@ -1023,7 +1023,7 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="<?php echo e(URL::asset('assets/images/arhin.png')); ?>" alt="" class="img-fluid rounded">
+                                        <img src="<?php echo e(URL::asset('assets/images/arhin.PNG')); ?>" alt="" class="img-fluid rounded">
                                         
                                     </div>
                                     <!-- end card body -->
