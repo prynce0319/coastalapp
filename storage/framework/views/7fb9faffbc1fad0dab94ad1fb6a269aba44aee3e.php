@@ -107,6 +107,9 @@
                                             <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="<?php echo e(URL::asset('assets/images/photo.jpg')); ?>" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
@@ -201,8 +204,8 @@
                         <div class="col-lg-8">
                             <div class="text-start mb-5">
                                 <h1 class="display-6 fw-semibold mb-3 lh-base" style="color: rgb(15, 7, 71);">Our Programs and Initiatives</h1>
-                                <p class="text-muted">CZMA small scale mining support programs focuses on professionalism mainly on geological investigations,mining ,processing and development of hard Rock gold small scale mining operations in designated and demarcated or block out areas.
-                                    CZMA strongly believes the road path to Ghana's transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment,hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard Rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
+                                <p class="text-muted">CZMA small scale mining support programs focus on professionalism mainly on geological investigations,mining ,processing and development of hard rock gold small scale mining operations in designated and demarcated or block out areas.
+                                    CZMA strongly believes the road path to Ghana's transition and sustainability of the small scale mining industry depends  mostly on the development of designated areas for hardrock mining operations.It requires knowledge, experience and it is capital intensive investment hence CZMA  has adopted an innovative, integrated and responsible approach to create a model hard rock operations with support from the Gomoa West District Assembly and collaboration with Ghana Geological Survey Authority and the minerals commission to initiate the coastal zone integrated mining support project.</p>
                             </div>
                         </div>
                         <!-- end col -->
@@ -1132,11 +1135,11 @@
                             <div>
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-muted text-uppercase">Address:</h5>
-                                    <div class="ff-secondary fw-semibold text-primary">Coastal Zone Mining Association <br/>Opposite Lake Lane Guest house and restaurant <br>Off Apam junction through the main road to Apam - Mumford under Gomoa West District</div>
+                                    <div class="ff-secondary fw-semibold text-primary">Coastal Zone Mining Association <br/>Seychem House, Plot #47, Bort 111 St. <br>Solo Avenue, New Bortianor, Accra</div>
                                 </div>
                                 <div class="mt-4">
-                                    <h5 class="fs-13 text-uppercase">Gomoa West District</h5>
-                                    <div class="ff-secondary fw-semibold">Official Line: <strong>+233 244211989</strong><br/><span class="text-muted">Email: <strong>coastalzonemining@gmail.com</strong> </span></div>
+                                    <h5 class="fs-13 text-uppercase">P. O. Box AN12227, Accra-North, Accra, Ghana</h5>
+                                    <div class="ff-secondary fw-semibold">Mobile Line: <strong>+233 244211989/+233 273037341</strong><br/><span class="text-muted">Email: <strong>coastalzonemining@gmail.com</strong> </span></div>
                                 </div>
                                 
                                 <div class="mt-4">
@@ -1148,6 +1151,7 @@
                         <!-- end col -->
                         <div class="col-lg-8">
                             <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1766021393446!2d-0.3497741!3d5.5408102999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfbd73312f2317%3A0xc7b9629058416bd8!2sSEYCHEM!5e0!3m2!1sen!2sgh!4v1740251494825!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 
                             </div>
                         </div>
