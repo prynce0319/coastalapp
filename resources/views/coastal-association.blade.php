@@ -1597,7 +1597,7 @@
                                 </div>
                                 <div class="mt-4">
                                     <h5 class="fs-13 text-uppercase">P. O. Box AN12227, Accra-North, Accra, Ghana</h5>
-                                    <div class="ff-secondary fw-semibold">Mobile Line: <strong>+233 244211989/+233 273037341</strong><br/><span class="text-muted">Email: <strong>coastalzonemining@gmail.com</strong> </span></div>
+                                    <div class="ff-secondary fw-semibold">Mobile Line: <strong>+233 244211989/+233 273037341</strong><br/><span class="text-muted">Email: <strong>coastalzoneminingassociation@gmail.com</strong> </span></div>
                                 </div>
                                 
                                 <div class="mt-4">
