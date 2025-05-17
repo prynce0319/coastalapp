@@ -945,7 +945,7 @@
                                     The Coastal Zone Mining Association (CZMA) is a trailblazing non-profit organization advocating for integrated responsible small scale mining in Ghana.
                                     
                                     <br><br><span class="fw-bold text-primary">What We Do: </span><br>
-                                    We work hand in hand with We work hard in hand with Mainly District Assemblies to ensure that mining activities are conducted responsibly. Through education, advocacy, and capacity building, CZMA is creating a model that respects both the people and planet with due regard to climate change affecting mining and Agriculture and ecosystem in the coastal areas of Ghana.
+                                    We work hand in hand with Mainly District Assemblies to ensure that mining activities are conducted responsibly. Through education, advocacy, and capacity building, CZMA is creating a model that respects both the people and planet with due regard to climate change affecting mining and Agriculture and ecosystem in the coastal areas of Ghana.
                                     
                                     <br><br><span class="fw-bold text-primary">Our Reach: </span><br>
                                     Operating primarily in Ghana's Central Region, our projects cover areas like Winneba, Gomoa, and Elmina, with plans to expand across the nation.

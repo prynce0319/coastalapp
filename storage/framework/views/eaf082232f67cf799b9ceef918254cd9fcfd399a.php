@@ -40,6 +40,50 @@
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
                                                 <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine25.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine27.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
                                                     <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
