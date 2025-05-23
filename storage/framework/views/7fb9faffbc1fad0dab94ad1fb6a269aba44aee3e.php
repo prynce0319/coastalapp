@@ -374,7 +374,7 @@
             <!-- start features -->
             <section style="background-color: rgb(15, 7, 71)" class="section py-5" id="features">
                 <div class="container">
-                    <div class="row align-items-center gy-4">
+                    <div class="row align-items-center gy-4 mb-2">
                         <div class="col-lg-6 col-sm-7 mx-auto">
                             <div>
                                 <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" alt="" class="img-fluid mx-auto img-thumbnail rounded">
@@ -413,6 +413,47 @@
                                             <p style="font-size: 11px">Jobs created across mining, agriculture, and value-added sectors by Year 4</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <div class="row align-items-center gy-4">
+                        
+                        <div class="col-lg-6">
+                            <div class="text-muted">
+
+                            <h3 class="mb-3 fs-20" style="color: rgb(42 160 188)">Strategic Collaboration with CC Explorations LLC</h3>
+
+                            <p class="mb-4 ff-secondary fs-16 text-white">
+                                <br>
+                                <br><br>
+
+                                We are pleased to announce a significant development — a collaborative partnership with an American company based in Arizona: <strong>CC Explorations LLC</strong>. This alliance strengthens our position in the mineral exploration sector and enhances our ability to deliver advanced AMRT (Advanced Mineral Remote-sensing Technology) solutions.<br><br>
+
+                                Mr. Henry Ben-Smith and/or Professor Emmanuel Arhin of the Coastal Zone Mining Association are officially authorized to:
+                                <ul>
+                                    <li>Market and promote AMRT Technology Services on behalf of CC Explorations LLC.</li>
+                                    <li>Engage in discussions and negotiations with potential clients and stakeholders.</li>
+                                    <li>Provide accurate technical information about AMRT and associated service offerings.</li>
+                                    <li>Collect feedback and facilitate ongoing dialogue to align services with market requirements.</li>
+                                </ul>
+                                <span class="text-white">This partnership marks a critical step in fostering sustainable and technologically advanced exploration methods across Ghana and beyond.</span> 
+                            </p>
+
+                            
+                        </div>
+
+                        </div>
+                        <div class="col-lg-6 col-sm-7 mx-auto">
+                            <div class="card explore-box card-animate border">
+                                <div class="card-body">
+                                    
+                                    <div class="explore-place-bid-img overflow-hidden rounded">
+                                        <iframe width="500" height="600" src="https://www.youtube.com/embed/YGKpy2eUymw" title="Introduction to CC Explorations." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1193,7 +1234,12 @@
                         <div class="col-lg-4 mt-4">
                             <div>
                                 <div>
-                                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" alt="logo light" height="17">
+                                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" alt="logo light" height="80px" width="80px">
+                                    <div class="mt-2">
+                                        <a href="<?php echo e(URL::asset('assets/images/corporate.pdf')); ?>" class="btn btn-sm btn-primary" download>
+                                            Download Corporate Profile (PDF)
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class= mt-4 fs-13">
                                     <p>Transforming Small-Scale Mining</p>
