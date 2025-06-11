@@ -1735,11 +1735,11 @@
                             <div>
                                 <div>
                                     <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="logo light" height="80px" width="80px">
-                                    <div class="mt-2">
+                                    {{-- <div class="mt-2">
                                         <a href="{{ URL::asset('assets/images/corporate.pdf') }}" class="btn btn-sm btn-primary" download>
                                             Download Corporate Profile (PDF)
                                         </a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class= mt-4 fs-13">
                                     <p>Transforming Small-Scale Mining</p>
