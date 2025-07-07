@@ -212,6 +212,69 @@
             </div>
             <!-- end client section -->
 
+            <section class="section py-5" style="background-color: rgb(15, 7, 71);" id="news">
+                <div class="bg-overlay bg-overlay-pattern"></div>
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-lg-8 text-center">
+                            <h3 class="fw-semibold text-white mb-3">Latest News & Updates</h3>
+                            <p class="text-white-50 mb-0">Stay updated with daily news from the Coastal Zone Mining Association.</p>
+                        </div>
+                    </div>
+                    <div class="swiper client-review-swiper rounded">
+                        <div class="swiper-wrapper mb-3">
+                            <!-- News Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="" style="color: rgb(15, 7, 71);">Coastal Zone Mining Association Convenes Emergency Stakeholders Meeting</h2>
+                                                <p class="card-text text-muted fs-5">In response to pressing concerns about proposed mining activities in Gomoa, the Coastal Zone Mining Association and zonal executives of the Ghana National Association of Small Scale Miners have called an emergency stakeholders meeting. The goal is to assess the environmental, social, and economic implications of the planned mining zone and promote responsible mining. Key stakeholders including traditional leaders, security officials, and the Minerals Commission are expected to attend.</p>
+                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">June 23, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- News Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="{{ URL::asset('assets/images/galamsey.jpg') }}" class="img-fluid rounded-start" alt="News Image 2" style="height: 600px; object-fit:contain; width: 600px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="" style="color: rgb(15, 7, 71);">Chiefs and MMDCEs to Lead Fight Against Galamsey – Lands Minister</h2>
+                                                <p class="card-text text-muted fs-5">The Minister for Lands and Natural Resources has announced a renewed strategy to combat illegal mining (galamsey) by empowering Chiefs and Metropolitan, Municipal, and District Chief Executives (MMDCEs) to take leadership roles. Speaking at a press conference, the minister emphasized the need for local accountability and community involvement to preserve lands and water bodies affected by unregulated mining activities.</p>
+                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">Source: Joy News. June 19th, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more slides as needed -->
+                        </div>
+                        <!-- Slider controls -->
+                        <div class="swiper-button-next bg-white rounded-circle"></div>
+                        <div class="swiper-button-prev bg-white rounded-circle"></div>
+                        <div class="swiper-pagination mt-3"></div>
+                    </div>
+                </div>
+            </section>
+
+
+
             <!-- start services -->
             <section class="section" id="services">
                 <div class="container">
