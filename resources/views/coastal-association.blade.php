@@ -247,14 +247,24 @@
                                 <div class="card border-0 shadow-sm h-100" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/mou.jpg') }}" 
-                                                class="img-fluid rounded-start" 
-                                                alt="MoU Signing Image" 
-                                                style="height: 600px; object-fit:contain; width: 600px;">
+                                            <div class="row g-2">
+                                                <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/mou.jpg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 1" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/building.jpg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 2" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">
+                                                <h2 style="color: rgb(15, 7, 71);">
                                                     CZMA / Seychem Ltd Signs MoU with Ghana National Association of Small Scale Miners
                                                 </h2>
                                                 <p class="card-text text-muted fs-5">
@@ -280,6 +290,7 @@
                                     </div>
                                 </div>
                             </div>
+
 
                             <!-- News Slide 2 -->
                             <div class="swiper-slide">
