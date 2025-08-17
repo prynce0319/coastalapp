@@ -58,6 +58,10 @@ Route::get('/arhin-profile', function () {
 Route::get('/joseph-profile', function () {
     return view('coastal-profile8');
 });
+
+Route::get('/charles-profile', function () {
+    return view('coastal-profile9');
+});
 //Update User Details
 Route::post('/update-profile/{id}', [App\Http\Controllers\HomeController::class, 'updateProfile'])->name('updateProfile');
 Route::post('/update-password/{id}', [App\Http\Controllers\HomeController::class, 'updatePassword'])->name('updatePassword');

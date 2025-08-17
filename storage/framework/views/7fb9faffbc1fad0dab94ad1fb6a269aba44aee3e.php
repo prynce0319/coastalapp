@@ -228,6 +228,44 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="<?php echo e(URL::asset('assets/images/mou.jpg')); ?>" 
+                                                class="img-fluid rounded-start" 
+                                                alt="MoU Signing Image" 
+                                                style="height: 600px; object-fit:contain; width: 600px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="" style="color: rgb(15, 7, 71);">
+                                                    CZMA / Seychem Ltd Signs MoU with Ghana National Association of Small Scale Miners
+                                                </h2>
+                                                <p class="card-text text-muted fs-5">
+                                                    On <strong>August 4th, 2025</strong>, Coastal Zone Minerals Alliance (CZMA) 
+                                                    and Seychem Ltd entered into a strategic partnership with the 
+                                                    <strong>Ghana National Association of Small Scale Miners (GNASSM)</strong>. 
+                                                    This landmark Memorandum of Understanding (MoU) establishes 
+                                                    collaboration to promote responsible and sustainable small-scale 
+                                                    mining practices across the country.
+                                                </p>
+                                                <p class="card-text text-muted fs-5">
+                                                    The signing ceremony took place at <strong>Seychem House</strong>, 
+                                                    the official office building of the alliance, symbolizing a 
+                                                    united front to improve regulation, environmental protection, 
+                                                    and community engagement within the artisanal and small-scale 
+                                                    mining sector.
+                                                </p>
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">Source: CZMA Communications. August 4th, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- News Slide 2 -->
                             <div class="swiper-slide">
                                 <div class="card border-0 shadow-sm h-100" style="background: #fff;">
@@ -1194,6 +1232,23 @@
                             <!-- end card -->
                         </div>
                         <!-- end col -->
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card">
+                                <div class="card-body text-center p-4">
+                                    <div class="avatar-xl mx-auto mb-4 position-relative">
+                                        <img src="<?php echo e(URL::asset('assets/images/charles.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
+                                    </div>
+                                    <!-- end card body -->
+                                    <h5 class="mb-1"><a href="charles-profile" class="text-body" style="font-size: 15px">Mr. Charles Toku</a></h5>
+                                    <p class="text-muted mb-0 ff-secondary">Professional Metallurgist</p>
+                                    
+                                </div>
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <!-- end col -->
+
                         <div class="col-lg-3 col-sm-6">
                             <div class="card">
                                 <div class="card-body text-center p-4">
