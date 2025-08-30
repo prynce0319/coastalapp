@@ -20,7 +20,7 @@
                 </button>
             </div>
         </nav>
-        <div class="row">
+        <div class="row container-fluid">
             <h4 >Our Gallery</h4>
             <div class="col-lg-12">
                 <div class="">
@@ -39,8 +39,162 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image2.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image2.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image4.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image4.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image5.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image5.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image6.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image7.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image7.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
                                                 <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
                                                     <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine25.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
+    
+                                            <div class="box-content">
+                                                <div class="d-flex align-items-center mt-1">
+                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
+                                                    <div class="flex-shrink-0">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -170,6 +324,7 @@
                                         </div>
                                     </div>
                                     <!-- end col -->
+                                    
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
@@ -293,6 +448,7 @@
                                         </div>
                                     </div>
                                     <!-- end col -->
+                                    
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">

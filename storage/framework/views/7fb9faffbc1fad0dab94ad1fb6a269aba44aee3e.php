@@ -98,16 +98,26 @@
                                 <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                                     <div class="carousel-inner shadow-lg p-2 bg-white rounded">
                                         <div class="carousel-item active" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/mine44.png')); ?>" class="d-block w-100 rounded" alt="...g">
+                                            <img src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="<?php echo e(URL::asset('assets/images/b.jpg')); ?>" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine44.png')); ?>" class="d-block w-100 rounded" alt="...g">
+                                        </div>
+     
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="<?php echo e(URL::asset('assets/images/image4.jpg')); ?>" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="<?php echo e(URL::asset('assets/images/image3.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/photo.jpg')); ?>" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+                                            <img src="<?php echo e(URL::asset('assets/images/image5.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                             <img src="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" class="d-block w-100" alt="...">
@@ -206,7 +216,7 @@
                             <p class="text-white-50 mb-0">Stay updated with daily news from the Coastal Zone Mining Association.</p>
                         </div>
                     </div>
-                    <div class="swiper client-review-swiper rounded">
+                    <div class="swiper client-review-swiper1 rounded">
                         <div class="swiper-wrapper mb-3">
                             <!-- News Slide 1 -->
                             <div class="swiper-slide">
@@ -229,17 +239,59 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="<?php echo e(URL::asset('assets/images/mou.jpg')); ?>" 
+                                            <img src="<?php echo e(URL::asset('assets/images/image8.jpg')); ?>" 
                                                 class="img-fluid rounded-start" 
-                                                alt="MoU Signing Image" 
-                                                style="height: 600px; object-fit:contain; width: 600px;">
+                                                alt="News Image 2" 
+                                                style="height: 600px; object-fit: contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <h2 class="" style="color: rgb(15, 7, 71);">
+                                                    Review Committee Meets on Cooperative Mining & Skills Development Programme
+                                                </h2>
+                                                <p class="card-text text-muted fs-5">
+                                                    The Ministry of Lands and Natural Resources has convened a high-level review committee 
+                                                    meeting in Accra to discuss the Responsible Cooperative Mining and Skills Development Programme. 
+                                                    The initiative seeks to promote sustainable mining practices while equipping small-scale miners 
+                                                    with technical skills and capacity-building opportunities. Stakeholders from government, industry, 
+                                                    and mining associations participated in the discussions to ensure the programme’s success and 
+                                                    long-term impact on Ghana’s mining sector.
+                                                </p>
+                                                
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">August 5, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <div class="row g-2">
+                                                <div class="col-6">
+                                                    <img src="<?php echo e(URL::asset('assets/images/mou.jpg')); ?>" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 1" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="<?php echo e(URL::asset('assets/images/building.jpg')); ?>" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 2" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 style="color: rgb(15, 7, 71);">
                                                     CZMA / Seychem Ltd Signs MoU with Ghana National Association of Small Scale Miners
                                                 </h2>
                                                 <p class="card-text text-muted fs-5">
@@ -265,6 +317,41 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="<?php echo e(URL::asset('assets/images/image9.png')); ?>" 
+                                                class="img-fluid rounded-start" 
+                                                alt="News Image" 
+                                                style="height: 300px; object-fit:fill; width: 800px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="" style="color: rgb(15, 7, 71);">
+                                                    GNASSM Meets UK-Ghana Gold Programme on ASGM Royalty Payment
+                                                </h2>
+                                                <p class="card-text text-muted fs-5">
+                                                    On Tuesday, August 19, 2025, the Ghana National Association of Small Scale Miners (GNASSM) 
+                                                    met with a team from the UK-Ghana Gold Programme (UKGGP) at the Diamond House, Accra, 
+                                                    to deliberate on the ASGM Royalty Payment Questionnaire aimed at consolidating ASGM 
+                                                    formalization and legitimacy. <br><br>
+                                                    The UK-Ghana Gold Programme (UKGGP) is a collaborative initiative between the UK and Ghana 
+                                                    that seeks to combat illegal gold mining while promoting the formalization of the artisanal 
+                                                    and small-scale gold mining (ASGM) sector. <br><br>
+                                                    Team UKGGP was represented by Dr. Steve Manteaw and Kwame Tsum Adabor, while 
+                                                    Team GNASSM included General Secretary Godwin Amarh, Razak Alhassan, 
+                                                    Mrs. Victoria Adobea Guerrieri, Henry Ben Smith, and Nii Adjetey Kofi Mensah.
+                                                </p>
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">August 19, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <!-- News Slide 2 -->
                             <div class="swiper-slide">
@@ -1494,6 +1581,24 @@
                 startDelay: 500, // Delay before typing starts initially
                 loop: true, // Loop the text
                 smartBackspace: false // Ensures all strings get typed without skipping identical parts
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".client-review-swiper1", {
+                loop: true,
+                autoplay: {
+                    delay: 12000, // duration in milliseconds (8000ms = 8 seconds per slide)
+                    disableOnInteraction: false,
+                },
+                speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
+                navigation: {
+                nextEl: '.client-review-next',
+                prevEl: '.client-review-prev'
+                },
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+                }
             });
         </script>
     <?php $__env->stopSection(); ?>
