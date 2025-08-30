@@ -36,7 +36,7 @@
                                 </div>
     
                                 <div class="row gallery-wrapper">
-                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
                                                 <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image1.jpg')); ?>" title="">
@@ -46,13 +46,39 @@
                                                     </div>
                                                 </a>
                                             </div>
+
+                                            <div class="box-content">
+                                                
+
+                                                <!-- Footnote / Comment Section -->
+                                                <div class="mt-2">
+                                                    <small class="text-muted fs-6">
+                                                        This project focuses on sustainable mining practices within coastal communities.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- end col -->
+                                    <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
+                                        <div class="gallery-box card">
+                                            <div class="gallery-container">
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image2.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image8.jpg')); ?>" alt="" />
+                                                    <div class="gallery-overlay">
+                                                        <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
+                                                    </div>
+                                                </a>
+                                            </div>
     
                                             <div class="box-content">
-                                                <div class="d-flex align-items-center mt-1">
-                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
-                                                    <div class="flex-shrink-0">
-                                                        
-                                                    </div>
+
+                                                <!-- Footnote / Comment Section -->
+                                                <div class="mt-2">
+                                                    <small class="text-muted fs-6">
+                                                        Review Committee Meets on Cooperative Mining & Skills Development Programme
+                                                    </small>
                                                 </div>
                                             </div>
                                         </div>
@@ -61,8 +87,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image2.jpg')); ?>" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image2.jpg')); ?>" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image9.png')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -70,11 +96,12 @@
                                             </div>
     
                                             <div class="box-content">
-                                                <div class="d-flex align-items-center mt-1">
-                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
-                                                    <div class="flex-shrink-0">
-                                                        
-                                                    </div>
+
+                                                <!-- Footnote / Comment Section -->
+                                                <div class="mt-2">
+                                                    <small class="text-muted fs-6">
+                                                        GNASSM Meets UK-Ghana Gold Programme on ASGM Royalties
+                                                    </small>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,11 +120,13 @@
                                             </div>
     
                                             <div class="box-content">
-                                                <div class="d-flex align-items-center mt-1">
-                                                    <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
-                                                    <div class="flex-shrink-0">
-                                                        
-                                                    </div>
+                                                
+
+                                                <!-- Footnote / Comment Section -->
+                                                <div class="mt-2">
+                                                    <small class="text-muted fs-6">
+                                                        A Memorandum of Understanding (MoU) between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund
+                                                    </small>
                                                 </div>
                                             </div>
                                         </div>

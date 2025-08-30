@@ -177,7 +177,7 @@
                                         <div class="swiper-slide">
                                             <div class="">
                                                 <img src="{{ URL::asset('assets/images/mine11.png') }}" height="200px" alt="client-img"
-                                                    class="img-fluid">
+                                              f      class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -278,6 +278,28 @@
                                                 {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
                                                 <div class="text-end mt-2">
                                                     <small class="text-muted">August 5, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="{{ URL::asset('assets/images/image3.jpg') }}" class="img-fluid rounded-start" alt="MoU News Image" style="height: 600px; object-fit:contain; width: 600px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="" style="color: rgb(15, 7, 71);">Memorandum of Understanding (MoU) Signed</h2>
+                                                <p class="card-text text-muted fs-5">
+                                                    A Memorandum of Understanding (MoU) has been signed between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund. 
+                                                    This agreement, made on June 9th, 2025, seeks to strengthen collaboration in sustainable mineral development, community support, and the responsible management of mining resources.
+                                                </p>
+                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">Source: CZMA. June 9th, 2025</small>
                                                 </div>
                                             </div>
                                         </div>
@@ -2103,7 +2125,7 @@
             var swiper = new Swiper(".client-review-swiper1", {
                 loop: true,
                 autoplay: {
-                    delay: 12000, // duration in milliseconds (8000ms = 8 seconds per slide)
+                    delay: 60000, // duration in milliseconds (8000ms = 8 seconds per slide)
                     disableOnInteraction: false,
                 },
                 speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
