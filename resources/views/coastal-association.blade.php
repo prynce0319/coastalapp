@@ -2124,10 +2124,10 @@
         <script>
             var swiper = new Swiper(".client-review-swiper1", {
                 loop: true,
-                autoplay: {
+                /* autoplay: {
                     delay: 60000, // duration in milliseconds (8000ms = 8 seconds per slide)
                     disableOnInteraction: false,
-                },
+                }, */
                 speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
                 navigation: {
                 nextEl: '.client-review-next',
