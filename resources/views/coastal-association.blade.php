@@ -238,7 +238,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" 
+                                            <img src="{{ URL::asset('assets/images/cso.jpg') }}" 
                                                 class="img-fluid rounded-start" 
                                                 alt="Meeting Image" 
                                                 style="height: 600px; object-fit: contain; width: 600px;">
@@ -266,7 +266,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/cso.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
+                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
