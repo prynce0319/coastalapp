@@ -238,7 +238,35 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
+                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" 
+                                                class="img-fluid rounded-start" 
+                                                alt="Meeting Image" 
+                                                style="height: 600px; object-fit: contain; width: 600px;">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
+                                                    President Convenes CSOs to Discuss Illegal Mining in Ghana
+                                                </h2>
+                                                <p class="card-text text-muted fs-5">
+                                                    The President has called a crucial meeting with Civil Society Organizations (CSOs) to deliberate on the ongoing challenges of illegal mining across the country. 
+                                                    The engagement aims to foster stronger collaboration between government and civic bodies in developing sustainable solutions to protect Ghana’s environment and mineral resources. 
+                                                    The meeting will be held on <strong>17th September 2025</strong> at the <strong>Jubilee House</strong>, bringing together key stakeholders from various sectors for an open dialogue on responsible mining and national development.
+                                                </p>
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">September 17, 2025</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-md-4">
+                                            <img src="{{ URL::asset('assets/images/cso.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
