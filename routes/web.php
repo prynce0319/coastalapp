@@ -59,6 +59,10 @@ Route::get('/joseph-profile', function () {
     return view('coastal-profile8');
 });
 
+Route::get('/kenah-profile', function () {
+    return view('coastal-profile10');
+});
+
 Route::get('/charles-profile', function () {
     return view('coastal-profile9');
 });

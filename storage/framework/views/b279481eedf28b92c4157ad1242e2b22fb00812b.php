@@ -1,18 +1,15 @@
-@extends('layouts.master-without-nav')
-@section('title') CZMA @endsection
-@section('css')
-<link href="{{ URL::asset('assets/libs/swiper/swiper.min.css')}}" rel="stylesheet" type="text/css" />
 
-@endsection
-@section('body')
+<?php $__env->startSection('title'); ?> CZMA <?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
+<link href="<?php echo e(URL::asset('assets/libs/swiper/swiper.min.css')); ?>" rel="stylesheet" type="text/css" />
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('body'); ?>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
-@endsection
-@section('content')
-    {{-- @component('components.breadcrumb')
-        @slot('li_1') Icons @endslot
-        @slot('title') Landing @endslot
-    @endcomponent --}}
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+    
     <style>
         .bg-content2 {
             background-color: rgb(77, 4, 4);
@@ -26,8 +23,8 @@
             <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
                 <div class="container">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-dark rounded" width="150px" height="100px" alt="logo dark" height="17">
-                        <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-light rounded" width="150px" height="100px" alt="logo light"
+                        <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-dark rounded" width="150px" height="100px" alt="logo dark" height="17">
+                        <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-light rounded" width="150px" height="100px" alt="logo light"
                             height="17">
                     </a>
                     <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse"
@@ -64,11 +61,7 @@
                             </li>
                         </ul>
 
-                        {{-- <div class="">
-                            <a href="auth-signin-basic" class="btn btn-link fw-medium text-decoration-none text-dark">Sign
-                                in</a>
-                            <a href="auth-signup-basic" class="btn btn-primary">Sign Up</a>
-                        </div> --}}
+                        
                     </div>
 
                 </div>
@@ -85,61 +78,58 @@
                             <div class="text-center mt-lg-5 pt-5">
                                 <h3  style="color: rgb(239, 224, 15);">COASTAL ZONE MINING ASSOCIATION</h3>                              
                                 <h1 class="display-6 fw-semibold mb-3 lh-base text-white">Transforming Small-Scale Mining:  <span id="typed-text" style="color: rgb(15, 7, 71);"></span></h1>
-                                <p class="lead lh-base" style="color: rgb(235, 240, 241)">{{-- Driving environmental stewardship, community development, and sustainable livelihoods for small-scale miners and their communities. --}}Small scale miners and their communities in the coastal designated areas.
+                                <p class="lead lh-base" style="color: rgb(235, 240, 241)">Small scale miners and their communities in the coastal designated areas.
                                 </p>
                                 <br>
                                 <br>
 
 
                                 
-                                {{-- <div class="d-flex gap-2 justify-content-center mt-4">
-                                    <a href="auth-signup-basic" class="btn btn-primary">Get Started <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                                    <a href="pages-pricing" class="btn btn-danger">View Plans <i class="ri-eye-line align-middle ms-1"></i></a>
-                                </div> --}}
+                                
                             </div>
 
                             <div class="mt-4 mt-sm-5 pt-sm-5 mb-sm-n5 demo-carousel">
                                 <div class="demo-img-patten-top d-none d-sm-block">
-                                    <img src="{{ URL::asset('assets/images/landing/img-pattern.png') }}" class="d-block img-fluid" alt="...">
+                                    <img src="<?php echo e(URL::asset('assets/images/landing/img-pattern.png')); ?>" class="d-block img-fluid" alt="...">
                                 </div>
                                 <div class="demo-img-patten-bottom d-none d-sm-block">
-                                    <img src="{{ URL::asset('assets/images/landing/img-pattern.png') }}" class="d-block img-fluid" alt="...">
+                                    <img src="<?php echo e(URL::asset('assets/images/landing/img-pattern.png')); ?>" class="d-block img-fluid" alt="...">
                                 </div>
                                 <div class="carousel slide carousel-fade" data-bs-ride="carousel">
                                     <div class="carousel-inner shadow-lg p-2 bg-white rounded">
                                         <div class="carousel-item active" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/image1.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine44.png') }}" class="d-block w-100 rounded" alt="...g">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine44.png')); ?>" class="d-block w-100 rounded" alt="...g">
                                         </div>
      
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/image4.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/image4.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/image3.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/image3.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine2.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/photo.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/photo.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/image5.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/image5.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine3.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine15.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine15.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine17.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine17.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
-                                            <img src="{{ URL::asset('assets/images/mine6.jpg') }}" class="d-block w-100" alt="...">
+                                            <img src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -176,37 +166,32 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/mine11.png') }}" height="200px" alt="client-img"
+                                                <img src="<?php echo e(URL::asset('assets/images/mine11.png')); ?>" height="200px" alt="client-img"
                                               f      class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/mine7.png') }}" height="200px" alt="client-img"
+                                                <img src="<?php echo e(URL::asset('assets/images/mine7.png')); ?>" height="200px" alt="client-img"
                                                     class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/mine8.png') }}" height="100px" alt="client-img"
+                                                <img src="<?php echo e(URL::asset('assets/images/mine8.png')); ?>" height="100px" alt="client-img"
                                                     class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="client-img"
+                                                <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" alt="client-img"
                                                     class="img-fluid">
                                             </div>
                                         </div>
-                                        {{-- <div class="swiper-slide">
-                                            <div class="client-images">
-                                                <img src="{{ URL::asset('assets/images/clients/shopify.svg') }}" alt="client-img"
-                                                    class="mx-auto img-fluid d-block">
-                                            </div>
-                                        </div> --}}
+                                        
                                         <div class="swiper-slide">
                                             <div class="">
-                                                <img src="{{ URL::asset('assets/images/mine12.png') }}" height="100px" alt="client-img"
+                                                <img src="<?php echo e(URL::asset('assets/images/mine12.png')); ?>" height="100px" alt="client-img"
                                                     class="img-fluid">
                                             </div>
                                         </div>
@@ -238,7 +223,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/cso1.jpeg') }}" 
+                                            <img src="<?php echo e(URL::asset('assets/images/cso1.jpeg')); ?>" 
                                                 class="img-fluid rounded-start" 
                                                 alt="GoldBod Technical Team Visit" 
                                                 style="height: 600px; object-fit: contain; width: 600px;">
@@ -279,7 +264,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/cso.jpg') }}" 
+                                            <img src="<?php echo e(URL::asset('assets/images/cso.jpg')); ?>" 
                                                 class="img-fluid rounded-start" 
                                                 alt="Meeting Image" 
                                                 style="height: 600px; object-fit: contain; width: 600px;">
@@ -307,13 +292,13 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
+                                            <img src="<?php echo e(URL::asset('assets/images/gomoa.jpg')); ?>" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <h2 class="" style="color: rgb(15, 7, 71);">Coastal Zone Mining Association Convenes Emergency Stakeholders Meeting</h2>
                                                 <p class="card-text text-muted fs-5">In response to pressing concerns about proposed mining activities in Gomoa, the Coastal Zone Mining Association and zonal executives of the Ghana National Association of Small Scale Miners have called an emergency stakeholders meeting. The goal is to assess the environmental, social, and economic implications of the planned mining zone and promote responsible mining. Key stakeholders including traditional leaders, security officials, and the Minerals Commission are expected to attend.</p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                
                                                 <div class="text-end mt-2">
                                                     <small class="text-muted">June 23, 2025</small>
                                                 </div>
@@ -326,7 +311,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image8.jpg') }}" 
+                                            <img src="<?php echo e(URL::asset('assets/images/image8.jpg')); ?>" 
                                                 class="img-fluid rounded-start" 
                                                 alt="News Image 2" 
                                                 style="height: 600px; object-fit: contain; width: 600px;">
@@ -344,7 +329,7 @@
                                                     and mining associations participated in the discussions to ensure the programme’s success and 
                                                     long-term impact on Ghana’s mining sector.
                                                 </p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                
                                                 <div class="text-end mt-2">
                                                     <small class="text-muted">August 5, 2025</small>
                                                 </div>
@@ -357,7 +342,7 @@
                                 <div class="card border-0 shadow-sm h-100" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image3.jpg') }}" class="img-fluid rounded-start" alt="MoU News Image" style="height: 600px; object-fit:contain; width: 600px;">
+                                            <img src="<?php echo e(URL::asset('assets/images/image3.jpg')); ?>" class="img-fluid rounded-start" alt="MoU News Image" style="height: 600px; object-fit:contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
@@ -366,7 +351,7 @@
                                                     A Memorandum of Understanding (MoU) has been signed between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund. 
                                                     This agreement, made on June 9th, 2025, seeks to strengthen collaboration in sustainable mineral development, community support, and the responsible management of mining resources.
                                                 </p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                
                                                 <div class="text-end mt-2">
                                                     <small class="text-muted">Source: CZMA. June 9th, 2025</small>
                                                 </div>
@@ -382,13 +367,13 @@
                                         <div class="col-md-4">
                                             <div class="row g-2">
                                                 <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/mou.jpg') }}" 
+                                                    <img src="<?php echo e(URL::asset('assets/images/mou.jpg')); ?>" 
                                                         class="img-fluid rounded-start" 
                                                         alt="MoU Signing Image 1" 
                                                         style="height: 280px; object-fit:cover; width: 100%;">
                                                 </div>
                                                 <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/building.jpg') }}" 
+                                                    <img src="<?php echo e(URL::asset('assets/images/building.jpg')); ?>" 
                                                         class="img-fluid rounded-start" 
                                                         alt="MoU Signing Image 2" 
                                                         style="height: 280px; object-fit:cover; width: 100%;">
@@ -427,7 +412,7 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image9.png') }}" 
+                                            <img src="<?php echo e(URL::asset('assets/images/image9.png')); ?>" 
                                                 class="img-fluid rounded-start" 
                                                 alt="News Image" 
                                                 style="height: 300px; object-fit:fill; width: 800px;">
@@ -464,13 +449,13 @@
                                 <div class="card border-0 shadow-sm h-100" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/galamsey.jpg') }}" class="img-fluid rounded-start" alt="News Image 2" style="height: 600px; object-fit:contain; width: 600px;">
+                                            <img src="<?php echo e(URL::asset('assets/images/galamsey.jpg')); ?>" class="img-fluid rounded-start" alt="News Image 2" style="height: 600px; object-fit:contain; width: 600px;">
                                         </div>
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <h2 class="" style="color: rgb(15, 7, 71);">Chiefs and MMDCEs to Lead Fight Against Galamsey – Lands Minister</h2>
                                                 <p class="card-text text-muted fs-5">The Minister for Lands and Natural Resources has announced a renewed strategy to combat illegal mining (galamsey) by empowering Chiefs and Metropolitan, Municipal, and District Chief Executives (MMDCEs) to take leadership roles. Speaking at a press conference, the minister emphasized the need for local accountability and community involvement to preserve lands and water bodies affected by unregulated mining activities.</p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
+                                                
                                                 <div class="text-end mt-2">
                                                     <small class="text-muted">Source: Joy News. June 19th, 2025</small>
                                                 </div>
@@ -504,7 +489,7 @@
                         </div>
                         <!-- end col -->
                         <div class="col-lg-4">
-                            <img src="{{ URL::asset('assets/images/mine21.png') }}"  height="300px" alt="cadastral">
+                            <img src="<?php echo e(URL::asset('assets/images/mine21.png')); ?>"  height="300px" alt="cadastral">
                         </div>
                     </div>
                     <!-- end row -->
@@ -658,15 +643,7 @@
                         
                     </div>
                     <!-- end row -->
-                   {{--  <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="text-center mb-5">
-                                
-                                <a href="#" class="btn text-white" style="background-color: rgb(15, 7, 71);">More Services</a>
-                            </div>
-                        </div>
-                        <!-- end col -->
-                    </div> --}}
+                   
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -679,7 +656,7 @@
                     <div class="row align-items-center gy-4 mb-2">
                         <div class="col-lg-6 col-sm-7 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/mine2.jpg') }}" alt="" class="img-fluid mx-auto img-thumbnail rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" alt="" class="img-fluid mx-auto img-thumbnail rounded">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -778,11 +755,7 @@
                             </div>
                         </div>
                         <!-- end col -->
-                        {{-- <div class="col-sm-auto">
-                            <div>
-                                <a href="https://1.envato.market/velzon-admin" target="_blank" class="btn bg-gradient btn-danger"><i class="ri-shopping-cart-2-line align-middle me-1"></i> Buy Now</a>
-                            </div>
-                        </div> --}}
+                        
                         <!-- end col -->
                     </div>
                     <!-- end row -->
@@ -799,8 +772,7 @@
                             <div class="text-muted">
                                 
                                 <h2 class="mb-3">Core Activities</h2>
-                                {{-- <p class="mb-4 ff-secondary">At AMS & Sons Construction, we understand that having access to the right equipment is essential for the successful completion of any construction project. To support your projects, we offer a wide range of modern, well-maintained construction equipment available for hire. Whether you need machinery 
-                                    for road construction, earthmoving, or material handling, our fleet is equipped to handle jobs of all sizes.</p> --}}
+                                
 
                                 <div class="row">
                                     <div class="col-sm-5">
@@ -849,15 +821,13 @@
                                     
                                 </div>
 
-                                {{-- <div class="mt-4">
-                                    <a href="index" class="btn text-white" style="background-color: rgb(15, 7, 71);">More Equipment <i class="ri-arrow-right-line align-middle ms-1"></i></a>
-                                </div> --}}
+                                
                             </div>
                         </div>
                         <!-- end col -->
                         <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2">
                             <div>
-                                <img src="{{ URL::asset('assets/images/mine6.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                     </div>
@@ -866,7 +836,7 @@
                     <div class="row align-items-center mt-5 pt-lg-5 gy-4">
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/mine17.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine17.jpg')); ?>" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -897,7 +867,7 @@
                         <!-- end col -->
                         <div class="col-lg-6 col-sm-7 col-10 mx-auto">
                             <div>
-                                <img src="{{ URL::asset('assets/images/mine10.jpg') }}" alt="" class="img-fluid rounded">
+                                <img src="<?php echo e(URL::asset('assets/images/mine10.jpg')); ?>" alt="" class="img-fluid rounded">
                             </div>
                         </div>
                         
@@ -909,350 +879,7 @@
             <!-- end features -->
 
             <!-- start plan -->
-            {{-- <section class="section bg-light" id="plans">
-                <div class="bg-overlay bg-overlay-pattern"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="text-center mb-5">
-                                <h3 class="mb-3 fw-semibold">Choose the plan that's right for you</h3>
-                                <p class="text-muted mb-4">Simple pricing. No hidden fees. Advanced features for you
-                                    business.</p>
-
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <div>
-                                        <h5 class="fs-14 mb-0">Month</h5>
-                                    </div>
-                                    <div class="form-check form-switch fs-20 ms-3 " onclick="check()">
-                                        <input class="form-check-input" type="checkbox" id="plan-switch">
-                                        <label class="form-check-label" for="plan-switch"></label>
-                                    </div>
-                                    <div>
-                                        <h5 class="fs-14 mb-0">Annual <span class="badge badge-soft-success">Save 20%</span></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end row -->
-
-                    <div class="row gy-4">
-                        <div class="col-lg-4">
-                            <div class="card plan-box mb-0">
-                                <div class="card-body p-4 m-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                            <h5 class="mb-1 fw-semibold">Basic Plan</h5>
-                                            <p class="text-muted mb-0">For Startup</p>
-                                        </div>
-                                        <div class="avatar-sm">
-                                            <div class="avatar-title bg-light rounded-circle text-primary">
-                                                <i class="ri-book-mark-line fs-20"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="py-4 text-center">
-                                        <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">19</span> <span
-                                                class="fs-13 text-muted">/Month</span></h1>
-                                        <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">171</span> <span
-                                                class="fs-13 text-muted">/Year</span></h1>
-                                    </div>
-
-                                    <div>
-                                        <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Upto <b>3</b> Projects
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Upto <b>299</b> Customers
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Scalable Bandwidth
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>5</b> FTP Login
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-danger me-1">
-                                                        <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>24/7</b> Support
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-danger me-1">
-                                                        <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Storage
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-danger me-1">
-                                                        <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Domain
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="mt-4">
-                                            <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                                Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-lg-4">
-                            <div class="card plan-box mb-0 ribbon-box right">
-                                <div class="card-body p-4 m-2">
-                                    <div class="ribbon-two ribbon-two-danger"><span>Popular</span></div>
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                            <h5 class="mb-1 fw-semibold">Pro Business</h5>
-                                            <p class="text-muted mb-0">Professional plans</p>
-                                        </div>
-                                        <div class="avatar-sm">
-                                            <div class="avatar-title bg-light rounded-circle text-primary">
-                                                <i class="ri-medal-fill fs-20"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="py-4 text-center">
-                                        <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">29</span> <span
-                                                class="fs-13 text-muted">/Month</span></h1>
-                                        <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">261</span> <span
-                                                class="fs-13 text-muted">/Year</span></h1>
-                                    </div>
-
-                                    <div>
-                                        <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Upto <b>15</b> Projects
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Customers
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Scalable Bandwidth
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>12</b> FTP Login
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>24/7</b> Support
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-danger me-1">
-                                                        <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Storage
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-danger me-1">
-                                                        <i class="ri-close-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Domain
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="mt-4">
-                                            <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                                Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-lg-4">
-                            <div class="card plan-box mb-0">
-                                <div class="card-body p-4 m-2">
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                            <h5 class="mb-1 fw-semibold">Platinum Plan</h5>
-                                            <p class="text-muted mb-0">Enterprise Businesses</p>
-                                        </div>
-                                        <div class="avatar-sm">
-                                            <div class="avatar-title bg-light rounded-circle text-primary">
-                                                <i class="ri-stack-fill fs-20"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="py-4 text-center">
-                                        <h1 class="month"><sup><small>$</small></sup><span class="ff-secondary fw-bold">39</span> <span
-                                                class="fs-13 text-muted">/Month</span></h1>
-                                        <h1 class="annual"><sup><small>$</small></sup><span class="ff-secondary fw-bold">351</span> <span
-                                                class="fs-13 text-muted">/Year</span></h1>
-                                    </div>
-
-                                    <div>
-                                        <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Projects
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Customers
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Scalable Bandwidth
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> FTP Login
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>24/7</b> Support
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        <b>Unlimited</b> Storage
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="d-flex">
-                                                    <div class="flex-shrink-0 text-success me-1">
-                                                        <i class="ri-checkbox-circle-fill fs-15 align-middle"></i>
-                                                    </div>
-                                                    <div class="flex-grow-1">
-                                                        Domain
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="mt-4">
-                                            <a href="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                                Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!-- end container -->
-            </section> --}}
+            
             <!-- end plan -->
 
             <!-- start features -->
@@ -1263,51 +890,27 @@
                             <div class="card explore-box card-animate border">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center mb-3">
-                                        {{-- <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle">
-                                        <div class="ms-2 flex-grow-1">
-                                            <a href="#!">
-                                                <h6 class="mb-0 fs-15">Nancy Martino</h6>
-                                            </a>
-                                            <p class="mb-0 text-muted fs-13">Owners</p>
-                                        </div> --}}
-                                        {{-- <div class="bookmark-icon">
-                                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                                        </div> --}}
+                                        
+                                        
                                     </div>
                                     <div class="explore-place-bid-img overflow-hidden rounded">
                                         <iframe width="500" height="300" src="https://www.youtube.com/embed/glF9rObAp2A" title="Mining in Ghana: Opportunities for Creating Partnerships." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         
                                     </div>
-                                    {{-- <div class="mt-3">
-                                        <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                                        <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
-                                        <h6 class="fs-16 mb-0"><a href="apps-nft-item-details">Patterns arts &amp; culture</a></h6>
-                                    </div> --}}
+                                    
                                 </div>
                             </div>
                             <div class="card explore-box card-animate border">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center mb-3">
-                                        {{-- <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle">
-                                        <div class="ms-2 flex-grow-1">
-                                            <a href="#!">
-                                                <h6 class="mb-0 fs-15">Nancy Martino</h6>
-                                            </a>
-                                            <p class="mb-0 text-muted fs-13">Owners</p>
-                                        </div> --}}
-                                        {{-- <div class="bookmark-icon">
-                                            <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                                        </div> --}}
+                                        
+                                        
                                     </div>
                                     <div class="explore-place-bid-img overflow-hidden rounded">
                                         <iframe width="500" height="300" src="https://www.youtube.com/embed/glF9rObAp2A" title="Mining in Ghana: Opportunities for Creating Partnerships." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         
                                     </div>
-                                    {{-- <div class="mt-3">
-                                        <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                                        <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
-                                        <h6 class="fs-16 mb-0"><a href="apps-nft-item-details">Patterns arts &amp; culture</a></h6>
-                                    </div> --}}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -1382,10 +985,7 @@
                                 <h3 class="mb-3 fw-semibold">Frequently Asked Questions</h3>
                                 <p class="text-muted mb-4 ff-secondary">Here are some Frequently Asked Questions about our association!</p>
 
-                                {{-- <div class="hstack gap-2 justify-content-center">
-                                    <button type="button" class="btn btn-primary btn-label rounded-pill"><i class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email Us</button>
-                                    <button type="button" class="btn btn-info btn-label rounded-pill"><i class="ri-twitter-line label-icon align-middle rounded-pill fs-16 me-2"></i> Send Us Tweet</button>
-                                </div> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -1523,23 +1123,7 @@
                                     </div>
                                 </div>
                                 
-                                {{-- <div class="accordion-item">
-                                    <h2 class="accordion-header" id="privacy-headingFour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#privacy-collapseFour" aria-expanded="false"
-                                            aria-controls="privacy-collapseFour">
-                                            Do stories need themes?
-                                        </button>
-                                    </h2>
-                                    <div id="privacy-collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="privacy-headingFour" data-bs-parent="#privacy-accordion">
-                                        <div class="accordion-body ff-secondary">
-                                            A story can have as many themes as the reader can identify based on recurring patterns and parallels within the story
-                                            itself. In looking at ways to separate themes into a hierarchy, we might find it useful to follow the example of a
-                                            single book.
-                                        </div>
-                                    </div>
-                                </div> --}}
+                                
                             </div>
                             <!--end accordion-->
                         </div>
@@ -1732,13 +1316,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/rita.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/rita.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/rita-profile" class="text-body" style="font-size: 15px">Dr Rita Owusu-Amankwah </a></h5>
@@ -1752,13 +1331,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/henry.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/henry.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/henry-profile" class="text-body" style="font-size: 15px">Mr. Henry Ben–Smith </a></h5>
@@ -1772,13 +1346,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/arhin.PNG') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/arhin.PNG')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="arhin-profile" class="text-body" style="font-size: 15px">Prof. Emmanuel Arhin</a></h5>
@@ -1793,13 +1362,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/ishmael.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/ishmael.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="/ishmael-profile" class="text-body" style="font-size: 15px">Mr. Ishmael Afenyo Adanya </a></h5>
@@ -1818,13 +1382,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/frank.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/frank.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="frank-profile" class="text-body" style="font-size: 15px">Mr. Frank Dziwornu</a></h5>
@@ -1839,13 +1398,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/environ.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/environ.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="joseph-profile" class="text-body" style="font-size: 15px">Dr. Joseph Yaw Appiah-Gyapong </a></h5>
@@ -1860,13 +1414,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/kenah.jpeg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/kenah.jpeg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="kenah-profile" class="text-body" style="font-size: 15px">Dr. Kenah </a></h5>
@@ -1881,13 +1430,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/charles.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/charles.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="charles-profile" class="text-body" style="font-size: 15px">Mr. Charles Toku</a></h5>
@@ -1903,13 +1447,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/amoako.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/amoako.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="amoakoh-profile" class="text-body" style="font-size: 15px">Amoakoh Emmanuel Ochere</a></h5>
@@ -1924,13 +1463,8 @@
                             <div class="card">
                                 <div class="card-body text-center p-4">
                                     <div class="avatar-xl mx-auto mb-4 position-relative">
-                                        <img src="{{ URL::asset('assets/images/priscilla.jpg') }}" alt="" class="img-fluid rounded">
-                                        {{-- <a href="apps-mailbox" style="background-color: rgb(15, 7, 71);"
-                                            class="btn btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
-                                            <div class="avatar-title bg-transparent">
-                                                <i class="ri-mail-fill align-bottom"></i>
-                                            </div>
-                                        </a> --}}
+                                        <img src="<?php echo e(URL::asset('assets/images/priscilla.jpg')); ?>" alt="" class="img-fluid rounded">
+                                        
                                     </div>
                                     <!-- end card body -->
                                     <h5 class="mb-1"><a href="priscilla-profile" class="text-body" style="font-size: 15px">Miss. Priscilla Obour
@@ -1945,14 +1479,7 @@
                         
                     </div>
                     <!-- end row -->
-                    {{-- <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-center mt-2">
-                                <a href="pages-team" style="background-color: rgb(15, 7, 71);" class="btn text-white">View All Members <i
-                                        class="ri-arrow-right-line ms-1 align-bottom"></i></a>
-                            </div>
-                        </div>
-                    </div> --}}
+                    
                     <!-- end row -->
                 </div>
                 <!-- end container -->
@@ -1994,49 +1521,7 @@
                         <div class="col-lg-8">
                             <div>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1766021393446!2d-0.3497741!3d5.5408102999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfbd73312f2317%3A0xc7b9629058416bd8!2sSEYCHEM!5e0!3m2!1sen!2sgh!4v1740251494825!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                {{-- <form>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="mb-4">
-                                                <label for="name" class="form-label fs-13">Name</label>
-                                                <input name="name" id="name" type="text"
-                                                    class="form-control bg-light border-light" placeholder="Your name*">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="mb-4">
-                                                <label for="email" class="form-label fs-13">Email</label>
-                                                <input name="email" id="email" type="email"
-                                                    class="form-control bg-light border-light" placeholder="Your email*">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="mb-4">
-                                                <label for="subject" class="form-label fs-13">Subject</label>
-                                                <input type="text" class="form-control bg-light border-light" id="subject"
-                                                    name="subject" placeholder="Your Subject.." />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="mb-3">
-                                                <label for="comments" class="form-label fs-13">Message</label>
-                                                <textarea name="comments" id="comments" rows="3"
-                                                    class="form-control bg-light border-light"
-                                                    placeholder="Your message..."></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-end">
-                                            <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary"
-                                                value="Send Message">
-                                        </div>
-                                    </div>
-                                </form> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -2077,12 +1562,8 @@
                         <div class="col-lg-4 mt-4">
                             <div>
                                 <div>
-                                    <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" alt="logo light" height="80px" width="80px">
-                                    {{-- <div class="mt-2">
-                                        <a href="{{ URL::asset('assets/images/corporate.pdf') }}" class="btn btn-sm btn-primary" download>
-                                            Download Corporate Profile (PDF)
-                                        </a>
-                                    </div> --}}
+                                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" alt="logo light" height="80px" width="80px">
+                                    
                                 </div>
                                 <div class= mt-4 fs-13">
                                     <p>Transforming Small-Scale Mining</p>
@@ -2098,8 +1579,7 @@
                                         <ul class="list-unstyled ff-secondary footer-list">
                                             <li><a href="#reviews">About Us</a></li>
                                            
-                                            {{-- <li><a href="apps-projects-overview">Projects</a></li>
-                                            <li><a href="pages-timeline">Timeline</a></li> --}}
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -2109,8 +1589,7 @@
                                         <ul class="list-unstyled ff-secondary footer-list">
                                             <li><a href="gallery">Gallery</a></li>
                                             <li><a href="#services">Services</a></li>
-                                            {{-- <li><a href="#">Health & Safety</a></li>
-                                            <li><a href="#">Deals</a></li> --}}
+                                            
                                             
                                         </ul>
                                     </div>
@@ -2190,16 +1669,16 @@
         <!-- end layout wrapper -->
 
 
-        {{-- @include("partials/vendor-scripts") --}}
+        
 
 
     </body>
 
 
-    @endsection
-    @section('script')
-        <script src="{{ URL::asset('/assets/libs/swiper/swiper.min.js') }}"></script>
-        <script src="{{ URL::asset('/assets/js/pages/landing.init.js') }}"></script>
+    <?php $__env->stopSection(); ?>
+    <?php $__env->startSection('script'); ?>
+        <script src="<?php echo e(URL::asset('/assets/libs/swiper/swiper.min.js')); ?>"></script>
+        <script src="<?php echo e(URL::asset('/assets/js/pages/landing.init.js')); ?>"></script>
         <script>
             var typed = new Typed('#typed-text', {
                 strings: ["Path to Sustainability and Prosperity"],
@@ -2229,4 +1708,6 @@
                 }
             });
         </script>
-    @endsection
+    <?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master-without-nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\coastalapp\resources\views/coastal-association.blade.php ENDPATH**/ ?>

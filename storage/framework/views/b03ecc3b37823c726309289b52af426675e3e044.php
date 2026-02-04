@@ -1,16 +1,16 @@
-@extends('layouts.master-without-nav')
-@section('title') @lang('translation.gallery') @endsection
-@section('css')
-    <link rel="stylesheet" href="{{ URL::asset('assets/libs/glightbox/glightbox.min.css') }}">
 
-@endsection
-@section('content')
+<?php $__env->startSection('title'); ?> <?php echo app('translator')->get('translation.gallery'); ?> <?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
+    <link rel="stylesheet" href="<?php echo e(URL::asset('assets/libs/glightbox/glightbox.min.css')); ?>">
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-landing " id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-dark rounded" width="100px" height="80px" alt="Home" height="17">
-                    <img src="{{ URL::asset('assets/images/coastal-logo.png') }}" class="card-logo card-logo-light rounded" width="100px" height="80px" alt="Home"
+                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-dark rounded" width="100px" height="80px" alt="Home" height="17">
+                    <img src="<?php echo e(URL::asset('assets/images/coastal-logo.png')); ?>" class="card-logo card-logo-light rounded" width="100px" height="80px" alt="Home"
                         height="17">
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse"
@@ -31,9 +31,7 @@
                                     <ul class="list-inline categories-filter animation-nav" id="filter">
                                         <li class="list-inline-item"><a class="categories active" data-filter="*">All</a></li>
                                         <li class="list-inline-item"><a class="categories" data-filter=".project">Project</a></li>
-                                        {{-- <li class="list-inline-item"><a class="categories" data-filter=".designing">Designing</a></li>
-                                        <li class="list-inline-item"><a class="categories" data-filter=".photography">Photography</a></li>
-                                        <li class="list-inline-item"><a class="categories" data-filter=".development">Development</a></li> --}}
+                                        
                                     </ul>
                                 </div>
     
@@ -42,8 +40,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/cso1.jpeg') }}" title="GoldBod Technical Team Visit">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/cso1.jpeg') }}" alt="GoldBod Technical Team Visit" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/cso1.jpeg')); ?>" title="GoldBod Technical Team Visit">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/cso1.jpeg')); ?>" alt="GoldBod Technical Team Visit" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">GoldBod Familiarization Visit</h5>
                                                     </div>
@@ -64,8 +62,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/cso5.jpeg') }}" title="Engagement with Traditional Authority">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/cso5.jpeg') }}" alt="Traditional Council Engagement" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/cso5.jpeg')); ?>" title="Engagement with Traditional Authority">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/cso5.jpeg')); ?>" alt="Traditional Council Engagement" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Traditional Council Engagement</h5>
                                                     </div>
@@ -86,8 +84,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/cso3.jpeg') }}" title="Project Introduction">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/cso3.jpeg') }}" alt="Project Introduction" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/cso3.jpeg')); ?>" title="Project Introduction">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/cso3.jpeg')); ?>" alt="Project Introduction" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Project Introduction</h5>
                                                     </div>
@@ -108,8 +106,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/cso4.jpeg') }}" title="Stakeholder Discussion">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/cso4.jpeg') }}" alt="Stakeholder Discussion" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/cso4.jpeg')); ?>" title="Stakeholder Discussion">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/cso4.jpeg')); ?>" alt="Stakeholder Discussion" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Stakeholder Discussions</h5>
                                                     </div>
@@ -129,8 +127,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development" data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image1.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -153,8 +151,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image2.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image8.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image2.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image8.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -176,8 +174,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image9.png') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image9.png')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -200,8 +198,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image4.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image4.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image4.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image4.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -209,12 +207,7 @@
                                             </div>
     
                                             <div class="box-content">
-                                                {{-- <div class="d-flex align-items-center mt-1">
-                                                    <div class="flex-grow-1 text-muted">
-                                                        <a href="#" class="text-body text-truncate">This project focuses on sustainable mining practices within coastal communities.</a>
-                                                    </div>
-                                                    <div class="flex-shrink-0"></div>
-                                                </div> --}}
+                                                
 
                                                 <!-- Footnote / Comment Section -->
                                                 <div class="mt-2">
@@ -229,8 +222,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image5.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image5.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image5.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image5.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -251,8 +244,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image6.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image6.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -273,8 +266,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image7.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image7.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image7.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image7.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -295,8 +288,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine25.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine25.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -316,8 +309,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/image1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/image1.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/image1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/image1.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -338,8 +331,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine27.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine27.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -350,14 +343,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 2.2K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -367,8 +353,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-1.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine6.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-1.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -379,14 +365,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 2.2K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -396,8 +375,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine3.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine20.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine20.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -409,14 +388,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.2K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.1K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -426,8 +398,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project development" data-category="development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-3.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine21.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-3.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine21.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -438,14 +410,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 2.1K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -455,8 +420,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/small/img-4.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine22.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/small/img-4.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine22.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -468,14 +433,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 825
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 101
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -486,8 +444,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine23.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine24.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine23.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine24.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -497,14 +455,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 632
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 95
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -514,8 +465,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine20.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine20.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -526,14 +477,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.4K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3k
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -542,8 +486,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine28.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine28.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -554,14 +498,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.4K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3k
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -570,8 +507,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine29.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine20.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine29.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine20.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -582,14 +519,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.4K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3k
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -605,14 +535,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.4K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3k
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -622,8 +545,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine6.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -634,14 +557,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 735
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 150
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -652,8 +568,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine3.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine3.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -664,14 +580,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 1.5k
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 250
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -682,8 +591,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing development"  data-category="designing development">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine2.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine2.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -694,14 +603,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 2.2K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -712,8 +614,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 project designing" data-category="project designing">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine19.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine19.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -723,14 +625,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 632
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 95
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -741,8 +636,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine17.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine17.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -754,14 +649,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.2K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.1K
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -772,8 +660,8 @@
                                     <div class="element-item col-xxl-3 col-xl-4 col-sm-6 photography" data-category="photography">
                                         <div class="gallery-box card">
                                             <div class="gallery-container">
-                                                <a class="image-popup" href="{{ URL::asset('assets/images/mine6.jpg') }}" title="">
-                                                    <img class="gallery-img img-fluid mx-auto" src="{{ URL::asset('assets/images/mine18.jpg') }}" alt="" />
+                                                <a class="image-popup" href="<?php echo e(URL::asset('assets/images/mine6.jpg')); ?>" title="">
+                                                    <img class="gallery-img img-fluid mx-auto" src="<?php echo e(URL::asset('assets/images/mine18.jpg')); ?>" alt="" />
                                                     <div class="gallery-overlay">
                                                         <h5 class="overlay-caption">Coastal Zone Mining Association</h5>
                                                     </div>
@@ -784,14 +672,7 @@
                                                 <div class="d-flex align-items-center mt-1">
                                                     <div class="flex-grow-1 text-muted"><a href="" class="text-body text-truncate">Projects</a></div>
                                                     <div class="flex-shrink-0">
-                                                        {{-- <div class="d-flex gap-3">
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-thumb-up-fill text-muted align-bottom me-1"></i> 3.4K
-                                                            </button>
-                                                            <button type="button" class="btn btn-sm fs-12 btn-link text-body text-decoration-none px-0">
-                                                                <i class="ri-question-answer-fill text-muted align-bottom me-1"></i> 1.3k
-                                                            </button>
-                                                        </div> --}}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -801,9 +682,7 @@
                                 </div>
                                 <!-- end row -->
     
-                                {{-- <div class="text-center my-2">
-                                    <a href="javascript:void(0);" class="text-success"><i class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load More </a>
-                                </div> --}}
+                                
                             </div>
                         </div>
                         <!-- end row -->
@@ -817,10 +696,12 @@
         <!-- end row -->     
     </div>
     
-@endsection
-@section('script')
-    <script src="{{ URL::asset('/assets/libs/glightbox/glightbox.min.js') }}"></script>
-    <script src="{{ URL::asset('/assets/libs/isotope-layout/isotope-layout.min.js') }}"></script>
-    <script src="{{ URL::asset('/assets/js/pages/gallery.init.js') }}"></script>
-    <script src="{{ URL::asset('/assets/js/app.min.js') }}"></script>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('script'); ?>
+    <script src="<?php echo e(URL::asset('/assets/libs/glightbox/glightbox.min.js')); ?>"></script>
+    <script src="<?php echo e(URL::asset('/assets/libs/isotope-layout/isotope-layout.min.js')); ?>"></script>
+    <script src="<?php echo e(URL::asset('/assets/js/pages/gallery.init.js')); ?>"></script>
+    <script src="<?php echo e(URL::asset('/assets/js/app.min.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master-without-nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\coastalapp\resources\views/coastal-gallery.blade.php ENDPATH**/ ?>
