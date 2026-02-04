@@ -223,11 +223,16 @@
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
                                         <div class="col-md-4">
-                                            <img src="<?php echo e(URL::asset('assets/images/cso1.jpeg')); ?>" 
-                                                class="img-fluid rounded-start" 
-                                                alt="GoldBod Technical Team Visit" 
-                                                style="height: 600px; object-fit: contain; width: 600px;">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <img src="<?php echo e(URL::asset('assets/images/cso6.jpeg')); ?>" 
+                                                    class="img-fluid rounded-start" 
+                                                    alt="GoldBod Technical Team Visit"
+                                                    style="height: 280px; object-fit: cover; width: 100%;">
+
+                                                
+                                            </div>
                                         </div>
+
                                         <div class="col-md-8">
                                             <div class="card-body">
                                                 <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
@@ -1418,7 +1423,7 @@
                                         
                                     </div>
                                     <!-- end card body -->
-                                    <h5 class="mb-1"><a href="kenah-profile" class="text-body" style="font-size: 15px">Dr. Kenah </a></h5>
+                                    <h5 class="mb-1"><a href="kenah-profile" class="text-body" style="font-size: 15px">Dr. Godfried Kenah </a></h5>
                                     <p class="text-muted mb-0 ff-secondary">Advisory Member</p>
                                     
                                 </div>
