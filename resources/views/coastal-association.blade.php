@@ -238,12 +238,22 @@
                             <div class="swiper-slide">
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
                                     <div class="row g-0 align-items-center">
-
+                                        
                                         <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/news1.jpeg') }}" 
-                                                class="img-fluid rounded-start" 
-                                                alt="PDAC Toronto Meeting"
-                                                style="height: 280px; object-fit: contain; width: 100%;">
+                                            <div class="row g-2">
+                                                <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/news1.jpeg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 1" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/news2.jpeg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="MoU Signing Image 2" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                            </div>
                                         </div>
                                         
 
