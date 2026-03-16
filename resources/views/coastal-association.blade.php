@@ -233,6 +233,65 @@
                     </div>
                     <div class="swiper client-review-swiper1 rounded">
                         <div class="swiper-wrapper mb-3">
+
+                            <!-- News Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+
+                                        <div class="col-md-4">
+                                            <img src="{{ URL::asset('assets/images/news1.jpeg') }}" 
+                                                class="img-fluid rounded-start" 
+                                                alt="PDAC Toronto Meeting"
+                                                style="height: 280px; object-fit: cover; width: 100%;">
+                                        </div>
+
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+
+                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
+                                                    Strategic Partnership Discussions Held at PDAC Mining Convention in Toronto
+                                                </h2>
+
+                                                <p class="card-text text-muted fs-5">
+
+                                                    During the recent global mining conference held in Toronto, Canada, representatives 
+                                                    of <strong>CZMA / H &amp; S Mining Group and Investment Ltd</strong> engaged in productive 
+                                                    discussions with officials of <strong>Eco Goldex Canada</strong> at the prestigious 
+                                                    PDAC mining convention.
+
+                                                    <br><br>
+
+                                                    As part of ongoing strategic collaboration, <strong>Eco Goldex Canada</strong> has granted 
+                                                    <strong>CZMA / H &amp; S Mining Group and Investment Ltd</strong> the 
+                                                    <strong>exclusive rights to distribute its technologies and services within 
+                                                    Ghana and Côte d'Ivoire (Ivory Coast)</strong>. This partnership is expected to 
+                                                    strengthen environmentally responsible gold extraction practices within the region.
+
+                                                    <br><br>
+
+                                                    The meeting, which took place on the sidelines of the convention, provided an 
+                                                    opportunity for both organizations to reaffirm their commitment to introducing 
+                                                    innovative and sustainable mining solutions across West Africa.
+
+                                                    <br><br>
+
+                                                    A photo from the event captures a representative of the project together with a 
+                                                    colleague at the conference venue, highlighting the growing international 
+                                                    collaboration supporting the initiative.
+
+                                                </p>
+
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">PDAC Convention – Toronto, Canada | March 2026</small>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                             <!-- News Slide 1 -->
                             <div class="swiper-slide">
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
