@@ -240,7 +240,7 @@
                                         
                                         <div class="col-md-4">
                                             <div class="row g-2">
-                                                <div class="col-6">
+                                                <div class="col-12">
                                                     <img src="{{ URL::asset('assets/images/news99.jpg') }}" 
                                                         class="img-fluid rounded-start" 
                                                         alt="Mining Investment Forum Image 1" 
