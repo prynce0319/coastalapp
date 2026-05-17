@@ -234,6 +234,79 @@
                     <div class="swiper client-review-swiper1 rounded">
                         <div class="swiper-wrapper mb-3">
 
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-sm" style="background: #fff;">
+                                    <div class="row g-0 align-items-center">
+                                        
+                                        <div class="col-md-4">
+                                            <div class="row g-2">
+                                                <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/news99.jpg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="Mining Investment Forum Image 1" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div>
+                                                {{-- <div class="col-6">
+                                                    <img src="{{ URL::asset('assets/images/news2.jpeg') }}" 
+                                                        class="img-fluid rounded-start" 
+                                                        alt="Mining Investment Forum Image 2" 
+                                                        style="height: 280px; object-fit:cover; width: 100%;">
+                                                </div> --}}
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+
+                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
+                                                    Ghana Showcases Mining Investment Opportunities at UNFF21 Forum in New York
+                                                </h2>
+
+                                                <p class="card-text text-muted fs-5">
+
+                                                    The Minister for Lands and Natural Resources, 
+                                                    <strong>Hon. Emmanuel Armah-Kofi Buah</strong>, engaged global mining firms 
+                                                    and international investors during an Investors’ Forum held in New York on 
+                                                    May 12, 2026, on the sidelines of the 21st Session of the United Nations 
+                                                    Forum on Forests (UNFF21).
+
+                                                    <br><br>
+
+                                                    During the forum, the Minister presented Ghana’s 
+                                                    <strong>“Reset Agenda”</strong>, aimed at positioning the country as 
+                                                    Africa’s most attractive and competitive mining investment destination. 
+                                                    He highlighted Ghana’s political stability, investor-friendly environment, 
+                                                    and abundant mineral resources including gold, lithium, bauxite, manganese, 
+                                                    iron ore, cobalt, and nickel.
+
+                                                    <br><br>
+
+                                                    Hon. Buah also outlined key government reforms designed to improve the 
+                                                    investment climate, including tax reductions, removal of VAT on exploration 
+                                                    activities, and measures to streamline regulations and enhance transparency 
+                                                    within the mining sector.
+
+                                                    <br><br>
+
+                                                    The Minister reaffirmed Ghana’s commitment to sustainable and responsible 
+                                                    mining practices, while inviting ethical investors to partner with the country 
+                                                    in developing a modern and sustainable mining economy.
+
+                                                </p>
+
+                                                <div class="text-end mt-2">
+                                                    <small class="text-muted">
+                                                        UNFF21 Investors’ Forum – New York, USA | May 2026
+                                                    </small>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                             <!-- News Slide 2 -->
                             <div class="swiper-slide">
                                 <div class="card border-0 shadow-sm" style="background: #fff;">
