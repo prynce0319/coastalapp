@@ -17,6 +17,1327 @@
         .bg-content2 {
             background-color: rgb(77, 4, 4);
         }
+
+        /* =========================================
+        CZMA MODERN NEWS SECTION
+        ========================================= */
+
+        .czma-news-section {
+            position: relative;
+            overflow: hidden;
+            padding: 100px 0;
+            background: #0f0747;
+        }
+
+        .czma-news-bg {
+            position: absolute;
+            inset: 0;
+            opacity: .08;
+            background-image:
+                radial-gradient(circle at 20% 20%, #d5a928 0, transparent 30%),
+                radial-gradient(circle at 90% 80%, #ffffff 0, transparent 25%);
+        }
+
+        .czma-section-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: #d5a928;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .czma-section-label span {
+            width: 35px;
+            height: 2px;
+            background: #d5a928;
+        }
+
+        .czma-news-title {
+            margin: 0;
+            color: #fff;
+            font-size: clamp(34px, 4vw, 52px);
+            font-weight: 800;
+            line-height: 1.08;
+        }
+
+        .czma-news-title span {
+            color: #d5a928;
+        }
+
+        .czma-news-subtitle {
+            max-width: 650px;
+            margin-top: 20px;
+            color: rgba(255,255,255,.65);
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+
+        /* NAVIGATION */
+
+        .czma-news-nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .czma-news-nav button {
+            width: 48px;
+            height: 48px;
+            border: 1px solid rgba(255,255,255,.2);
+            border-radius: 50%;
+            background: rgba(255,255,255,.08);
+            color: #fff;
+            font-size: 20px;
+            transition: all .3s ease;
+        }
+
+        .czma-news-nav button:hover {
+            background: #d5a928;
+            border-color: #d5a928;
+            color: #0f0747;
+        }
+
+
+        /* FEATURED STORY */
+
+        .czma-featured-news {
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 24px;
+            background: #fff;
+            box-shadow: 0 25px 70px rgba(0,0,0,.25);
+        }
+
+        .czma-featured-image {
+            position: relative;
+            height: 100%;
+            min-height: 480px;
+            overflow: hidden;
+        }
+
+        .czma-featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .7s ease;
+        }
+
+        .czma-featured-news:hover .czma-featured-image img {
+            transform: scale(1.04);
+        }
+
+        .czma-image-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(
+                to top,
+                rgba(15,7,71,.55),
+                transparent 45%
+            );
+        }
+
+        .czma-date-badge {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border-radius: 12px;
+            background: rgba(255,255,255,.95);
+            color: #0f0747;
+            box-shadow: 0 10px 25px rgba(0,0,0,.15);
+        }
+
+        .czma-date-badge span {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        .czma-date-badge small {
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        .czma-featured-tag {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            padding: 7px 12px;
+            border-radius: 30px;
+            background: #d5a928;
+            color: #0f0747;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .czma-featured-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            padding: 50px;
+        }
+
+        .czma-story-meta {
+            margin-bottom: 15px;
+            color: #a58117;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .czma-story-meta i {
+            margin-right: 5px;
+        }
+
+        .czma-featured-content h3 {
+            margin-bottom: 20px;
+            color: #0f0747;
+            font-size: clamp(27px, 3vw, 38px);
+            font-weight: 800;
+            line-height: 1.15;
+        }
+
+        .czma-featured-content p {
+            margin-bottom: 12px;
+            color: #69707d;
+            font-size: 15px;
+            line-height: 1.75;
+        }
+
+        .czma-read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            width: fit-content;
+            margin-top: 18px;
+            color: #0f0747;
+            font-size: 14px;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .czma-read-more i {
+            transition: transform .3s ease;
+        }
+
+        .czma-read-more:hover {
+            color: #d5a928;
+        }
+
+        .czma-read-more:hover i {
+            transform: translateX(5px);
+        }
+
+
+        /* NORMAL NEWS CARDS */
+
+        .czma-news-card {
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 20px;
+            background: #fff;
+            transition: transform .35s ease, box-shadow .35s ease;
+        }
+
+        .czma-news-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0,0,0,.25);
+        }
+
+        .czma-card-image {
+            position: relative;
+            height: 245px;
+            overflow: hidden;
+        }
+
+        .czma-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform .5s ease;
+        }
+
+        .czma-news-card:hover .czma-card-image img {
+            transform: scale(1.06);
+        }
+
+        .czma-card-category {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            padding: 6px 10px;
+            border-radius: 30px;
+            background: #d5a928;
+            color: #0f0747;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .8px;
+        }
+
+        .czma-card-content {
+            padding: 25px;
+        }
+
+        .czma-card-date {
+            margin-bottom: 12px;
+            color: #a58117;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .czma-card-date i {
+            margin-right: 4px;
+        }
+
+        .czma-card-content h3 {
+            display: -webkit-box;
+            overflow: hidden;
+            margin-bottom: 13px;
+            color: #0f0747;
+            font-size: 20px;
+            font-weight: 750;
+            line-height: 1.35;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .czma-card-content p {
+            display: -webkit-box;
+            overflow: hidden;
+            margin-bottom: 20px;
+            color: #727985;
+            font-size: 14px;
+            line-height: 1.65;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .czma-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #0f0747;
+            font-size: 13px;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .czma-card-link:hover {
+            color: #d5a928;
+        }
+
+
+        /* PAGINATION */
+
+        .czma-news-pagination {
+            position: relative !important;
+            margin-top: 35px;
+        }
+
+        .czma-news-pagination .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            background: rgba(255,255,255,.4);
+            opacity: 1;
+        }
+
+        .czma-news-pagination .swiper-pagination-bullet-active {
+            width: 28px;
+            border-radius: 10px;
+            background: #d5a928;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 991px) {
+
+            .czma-news-section {
+                padding: 70px 0;
+            }
+
+            .czma-featured-image {
+                min-height: 350px;
+            }
+
+            .czma-featured-content {
+                padding: 35px;
+            }
+
+            .czma-news-nav {
+                justify-content: flex-start;
+            }
+
+        }
+
+        @media (max-width: 575px) {
+
+            .czma-news-section {
+                padding: 55px 0;
+            }
+
+            .czma-featured-content {
+                padding: 28px;
+            }
+
+            .czma-featured-content h3 {
+                font-size: 26px;
+            }
+
+            .czma-card-image {
+                height: 220px;
+            }
+
+        }
+
+        /* =========================================================
+   CZMA MODERN NEWS SECTION
+========================================================= */
+
+.czma-news-section {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0;
+    background: #0f0747;
+}
+
+.czma-news-bg {
+    position: absolute;
+    inset: 0;
+    opacity: .08;
+
+    background-image:
+        radial-gradient(
+            circle at 15% 20%,
+            #d5a928 0,
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            #ffffff 0,
+            transparent 28%
+        );
+}
+
+
+/* =========================================================
+   SECTION HEADER
+========================================================= */
+
+.czma-section-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 15px;
+
+    color: #d5a928;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.czma-section-label span {
+    width: 35px;
+    height: 2px;
+
+    background: #d5a928;
+}
+
+
+.czma-news-title {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: clamp(34px, 4vw, 52px);
+    font-weight: 800;
+
+    line-height: 1.08;
+}
+
+.czma-news-title span {
+    color: #d5a928;
+}
+
+
+.czma-news-subtitle {
+    max-width: 650px;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    color: rgba(255,255,255,.65);
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   NAVIGATION BUTTONS
+========================================================= */
+
+.czma-news-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.czma-news-nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.08);
+
+    color: #ffffff;
+
+    font-size: 20px;
+
+    transition:
+        background .3s ease,
+        color .3s ease,
+        transform .3s ease;
+}
+
+.czma-news-nav button:hover {
+    background: #d5a928;
+    border-color: #d5a928;
+
+    color: #0f0747;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   NEWS CARD
+========================================================= */
+
+.czma-news-card {
+    height: 100%;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 22px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 15px 45px rgba(0,0,0,.16);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.czma-news-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.25);
+}
+
+
+/* =========================================================
+   CARD IMAGE
+========================================================= */
+
+.czma-card-image {
+    position: relative;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    background: #eeeeee;
+}
+
+.czma-card-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform .6s ease;
+}
+
+.czma-news-card:hover .czma-card-image img {
+    transform: scale(1.07);
+}
+
+
+.czma-card-image-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(15,7,71,.05),
+            rgba(15,7,71,.35)
+        );
+}
+
+
+/* =========================================================
+   CATEGORY
+========================================================= */
+
+.czma-card-category {
+    position: absolute;
+
+    top: 18px;
+    left: 18px;
+
+    display: inline-flex;
+
+    padding: 7px 12px;
+
+    border-radius: 30px;
+
+    background: #d5a928;
+
+    color: #0f0747;
+
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,.15);
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.czma-card-content {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 310px;
+
+    padding: 27px;
+}
+
+
+.czma-card-date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-bottom: 12px;
+
+    color: #a58117;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.czma-card-date i {
+    font-size: 15px;
+}
+
+
+.czma-card-content h3 {
+    display: -webkit-box;
+
+    overflow: hidden;
+
+    margin-bottom: 13px;
+
+    color: #0f0747;
+
+    font-size: 20px;
+    font-weight: 750;
+
+    line-height: 1.35;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.czma-card-content p {
+    display: -webkit-box;
+
+    overflow: hidden;
+
+    margin-bottom: 20px;
+
+    color: #727985;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+/* =========================================================
+   READ ARTICLE BUTTON
+========================================================= */
+
+.czma-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    width: fit-content;
+
+    margin-top: auto;
+
+    padding: 0;
+
+    border: 0;
+
+    background: transparent;
+
+    color: #0f0747;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    transition:
+        color .3s ease;
+}
+
+.czma-card-link i {
+    font-size: 16px;
+
+    transition:
+        transform .3s ease;
+}
+
+.czma-card-link:hover {
+    color: #d5a928;
+}
+
+.czma-card-link:hover i {
+    transform: translate(3px, -3px);
+}
+
+
+/* =========================================================
+   SWIPER
+========================================================= */
+
+.czmaNewsSwiper {
+    padding: 10px 5px 55px;
+}
+
+.czmaNewsSwiper .swiper-slide {
+    height: auto;
+}
+
+
+.czma-news-pagination {
+    bottom: 0 !important;
+}
+
+.czma-news-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+
+    opacity: 1;
+
+    background: rgba(255,255,255,.35);
+
+    transition:
+        width .3s ease;
+}
+
+.czma-news-pagination .swiper-pagination-bullet-active {
+    width: 28px;
+
+    border-radius: 10px;
+
+    background: #d5a928;
+}
+
+
+/* =========================================================
+   ARTICLE MODAL
+========================================================= */
+
+.czma-news-modal .modal-dialog {
+    max-width: 1050px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.czma-news-modal .modal-content {
+    position: relative;
+
+    overflow: hidden;
+
+    border: 0;
+
+    border-radius: 24px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 30px 100px rgba(0,0,0,.35);
+}
+
+
+/* =========================================================
+   MODAL CLOSE BUTTON
+========================================================= */
+
+.czma-modal-close {
+    position: absolute;
+
+    z-index: 20;
+
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 46px;
+    height: 46px;
+
+    border: 0;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.96);
+
+    color: #0f0747;
+
+    font-size: 22px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,.18);
+
+    transition:
+        background .3s ease,
+        color .3s ease,
+        transform .3s ease;
+}
+
+.czma-modal-close:hover {
+    background: #d5a928;
+
+    color: #0f0747;
+
+    transform: rotate(90deg);
+}
+
+
+/* =========================================================
+   ARTICLE HEADER
+========================================================= */
+
+.czma-article-header {
+    padding: 55px 80px 35px;
+}
+
+
+.czma-article-category {
+    display: inline-flex;
+
+    padding: 7px 13px;
+
+    margin-bottom: 18px;
+
+    border-radius: 30px;
+
+    background: rgba(213,169,40,.12);
+
+    color: #a58117;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+.czma-article-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    margin-bottom: 15px;
+
+    color: #7b818d;
+
+    font-size: 13px;
+}
+
+
+.czma-article-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.czma-article-meta i {
+    color: #d5a928;
+    font-size: 15px;
+}
+
+
+.czma-article-header h2 {
+    max-width: 900px;
+
+    margin: 0;
+
+    color: #0f0747;
+
+    font-size: clamp(30px, 4vw, 48px);
+
+    font-weight: 800;
+
+    line-height: 1.12;
+}
+
+
+/* =========================================================
+   ARTICLE IMAGE
+========================================================= */
+
+.czma-article-image {
+    width: 100%;
+
+    height: 450px;
+
+    overflow: hidden;
+
+    background: #eeeeee;
+}
+
+
+.czma-article-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   ARTICLE BODY
+========================================================= */
+
+.czma-article-body {
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 45px 40px 60px;
+}
+
+
+.czma-article-body p {
+    margin-bottom: 23px;
+
+    color: #535b68;
+
+    font-size: 16px;
+
+    line-height: 1.9;
+}
+
+
+.czma-article-body strong {
+    color: #0f0747;
+}
+
+
+/* =========================================================
+   ARTICLE SOURCE
+========================================================= */
+
+.czma-article-source {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 12px;
+
+    margin-top: 35px;
+
+    padding: 18px 20px;
+
+    border-left: 3px solid #d5a928;
+
+    background: #f8f8fa;
+
+    color: #6b7280;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+.czma-article-source i {
+    flex-shrink: 0;
+
+    color: #d5a928;
+
+    font-size: 20px;
+}
+
+
+/* =========================================================
+   MODAL BACKDROP
+========================================================= */
+
+.czma-news-modal.show {
+    background: rgba(15,7,71,.65);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .czma-news-section {
+        padding: 75px 0;
+    }
+
+    .czma-news-nav {
+        justify-content: flex-start;
+    }
+
+    .czma-card-image {
+        height: 230px;
+    }
+
+    .czma-article-header {
+        padding: 45px 45px 30px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .czma-news-section {
+        padding: 60px 0;
+    }
+
+    .czma-news-title {
+        font-size: 34px;
+    }
+
+    .czma-news-subtitle {
+        font-size: 15px;
+    }
+
+    .czma-news-nav button {
+        width: 44px;
+        height: 44px;
+    }
+
+    .czma-card-image {
+        height: 220px;
+    }
+
+    .czma-card-content {
+        min-height: 290px;
+        padding: 23px;
+    }
+
+
+    /* MODAL */
+
+    .czma-news-modal .modal-dialog {
+        margin: 8px;
+    }
+
+    .czma-news-modal .modal-content {
+        border-radius: 18px;
+    }
+
+    .czma-modal-close {
+        top: 12px;
+        right: 12px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .czma-article-header {
+        padding: 45px 25px 25px;
+    }
+
+    .czma-article-header h2 {
+        font-size: 28px;
+    }
+
+    .czma-article-meta {
+        gap: 10px;
+    }
+
+    .czma-article-image {
+        height: 280px;
+    }
+
+    .czma-article-body {
+        padding: 30px 25px 45px;
+    }
+
+    .czma-article-body p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+}
+
+        /* =========================================
+        CZMA ARTICLE MODAL
+        ========================================= */
+
+        .czma-news-modal .modal-dialog {
+            max-width: 1050px;
+        }
+
+        .czma-news-modal .modal-content {
+            overflow: hidden;
+            border: 0;
+            border-radius: 24px;
+            background: #fff;
+            box-shadow: 0 30px 100px rgba(0, 0, 0, .35);
+        }
+
+
+        /* CLOSE BUTTON */
+
+        .czma-modal-close {
+            position: absolute;
+            z-index: 20;
+            top: 20px;
+            right: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 45px;
+            height: 45px;
+
+            border: 0;
+            border-radius: 50%;
+
+            background: rgba(255,255,255,.95);
+            color: #0f0747;
+
+            font-size: 22px;
+
+            box-shadow: 0 5px 20px rgba(0,0,0,.15);
+
+            transition: all .3s ease;
+        }
+
+        .czma-modal-close:hover {
+            background: #d5a928;
+            transform: rotate(90deg);
+        }
+
+
+        /* ARTICLE HEADER */
+
+        .czma-article-header {
+            padding: 55px 80px 35px;
+        }
+
+        .czma-article-category {
+            display: inline-flex;
+
+            padding: 7px 13px;
+
+            margin-bottom: 18px;
+
+            border-radius: 30px;
+
+            background: rgba(213,169,40,.12);
+            color: #a58117;
+
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .czma-article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            margin-bottom: 15px;
+
+            color: #7b818d;
+            font-size: 13px;
+        }
+
+        .czma-article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .czma-article-meta i {
+            color: #d5a928;
+        }
+
+        .czma-article-header h2 {
+            max-width: 850px;
+
+            margin: 0;
+
+            color: #0f0747;
+
+            font-size: clamp(30px, 4vw, 48px);
+            font-weight: 800;
+            line-height: 1.12;
+        }
+
+
+        /* ARTICLE IMAGE */
+
+        .czma-article-image {
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+        }
+
+        .czma-article-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        /* ARTICLE BODY */
+
+        .czma-article-body {
+            max-width: 850px;
+
+            margin: auto;
+
+            padding: 45px 40px 60px;
+        }
+
+        .czma-article-body p {
+            margin-bottom: 22px;
+
+            color: #535b68;
+
+            font-size: 16px;
+            line-height: 1.9;
+        }
+
+        .czma-article-body strong {
+            color: #0f0747;
+        }
+
+
+        /* SOURCE */
+
+        .czma-article-source {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            margin-top: 35px;
+            padding: 18px 20px;
+
+            border-left: 3px solid #d5a928;
+
+            background: #f8f8fa;
+
+            color: #6b7280;
+
+            font-size: 13px;
+        }
+
+        .czma-article-source i {
+            color: #d5a928;
+            font-size: 20px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 767px) {
+
+            .czma-news-modal .modal-dialog {
+                margin: 10px;
+            }
+
+            .czma-news-modal .modal-content {
+                border-radius: 18px;
+            }
+
+            .czma-article-header {
+                padding: 40px 25px 25px;
+            }
+
+            .czma-article-header h2 {
+                font-size: 28px;
+            }
+
+            .czma-article-image {
+                height: 280px;
+            }
+
+            .czma-article-body {
+                padding: 30px 25px 45px;
+            }
+
+            .czma-article-body p {
+                font-size: 15px;
+                line-height: 1.8;
+            }
+
+        }
     </style>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar-example">
@@ -222,423 +1543,612 @@
             </div>
             <!-- end client section -->
 
-            <section class="section py-5" style="background-color: rgb(15, 7, 71);" id="news">
-                <div class="bg-overlay bg-overlay-pattern"></div>
-                <div class="container">
-                    <div class="row justify-content-center mb-4">
-                        <div class="col-lg-8 text-center">
-                            <h3 class="fw-semibold text-white mb-3">Latest News & Updates</h3>
-                            <p class="text-white-50 mb-0">Stay updated with daily news from the Coastal Zone Mining Association.</p>
+            @php
+
+                $news = [
+
+                    // =====================================================
+                    // NEWS 1
+                    // =====================================================
+                    // =====================================================
+                    // NEWS 1 — CZMA PRESENTATION TO MLNR
+                    // =====================================================
+                    [
+                        'id' => 1,
+                        'featured' => true,
+                        'category' => 'CZMA Update',
+                        'date' => 'May 28, 2026',
+                        'location' => 'Ministry of Lands and Natural Resources, Ghana',
+                        'image' => 'yellow1.jpeg',
+
+                        'title' => 'CZMA Presents Sustainable Mining Agenda to Ministry of Lands and Natural Resources',
+
+                        'excerpt' => 'The Coastal Zone Mining Association presented its Coastal Zone Integrated Mining Project and sustainable mining agenda to the Ministry of Lands and Natural Resources, outlining proposals for responsible, environmentally sustainable and more productive artisanal and small-scale mining.',
+
+                        'content' => [
+
+                            'The Coastal Zone Mining Association (CZMA) presented its Coastal Zone Integrated Mining Project to the Ministry of Lands and Natural Resources on 28 May 2026. The presentation focused on responsible and sustainable transformation of Ghana’s artisanal and small-scale mining (ASM) sector.',
+
+                            'The presentation highlighted key challenges affecting current ASM operations, including environmental and health concerns associated with mercury and sodium cyanide, low gold recovery, resource losses in tailings, and challenges relating to formalization, traceability and revenue leakage.',
+
+                            'CZMA outlined its Sustainable Mining Agenda, which includes reducing and eventually eliminating the use of mercury and sodium cyanide, introducing affordable modern mining and mineral-processing equipment, strengthening geological investigations, and establishing Model Mining Zones to demonstrate responsible mining practices.',
+
+                            'The Association also proposed the integration of tailings-processing facilities, formalization of ASM cooperatives, community awareness and participation programmes, and education, training and certification initiatives for ASM operators.',
+
+                            'The presentation further introduced eco-friendly mineral-processing solutions, including Eco-Goldex products and Seychem CFX100, alongside modern Carbon-in-Pulp (CIP) processing systems. The proposed approach is intended to support cleaner mineral recovery, improve gold recovery efficiency, reduce environmental impacts, and contribute to the formalization of the ASM sector.',
+
+                            'CZMA concluded by proposing government support for the demonstration of environmentally sustainable mining and mineral-processing technologies within Ghana’s ASM sector, as part of efforts to advance responsible mineral recovery and sustainable small-scale mining.'
+
+                        ],
+
+                        'source' => 'Coastal Zone Mining Association Presentation to the Ministry of Lands and Natural Resources | May 28, 2026'
+                    ],
+                    [
+                        'id' => 11,
+                        'featured' => true,
+                        'category' => 'Investment',
+                        'date' => 'May 12, 2026',
+                        'location' => 'New York, USA',
+                        'image' => 'news99.jpg',
+
+                        'title' => 'Ghana Showcases Mining Investment Opportunities at UNFF21 Forum in New York',
+
+                        'excerpt' => 'The Minister for Lands and Natural Resources, Hon. Emmanuel Armah-Kofi Buah, engaged global mining firms and international investors during an Investors’ Forum held in New York.',
+
+                        'content' => [
+
+                            'The Minister for Lands and Natural Resources, Hon. Emmanuel Armah-Kofi Buah, engaged global mining firms and international investors during an Investors’ Forum held in New York on May 12, 2026, on the sidelines of the 21st Session of the United Nations Forum on Forests (UNFF21).',
+
+                            'During the forum, the Minister presented Ghana’s “Reset Agenda”, aimed at positioning the country as Africa’s most attractive and competitive mining investment destination. He highlighted Ghana’s political stability, investor-friendly environment, and abundant mineral resources including gold, lithium, bauxite, manganese, iron ore, cobalt, and nickel.',
+
+                            'Hon. Buah also outlined key government reforms designed to improve the investment climate, including tax reductions, removal of VAT on exploration activities, and measures to streamline regulations and enhance transparency within the mining sector.',
+
+                            'The Minister reaffirmed Ghana’s commitment to sustainable and responsible mining practices, while inviting ethical investors to partner with the country in developing a modern and sustainable mining economy.'
+
+                        ],
+
+                        'source' => 'UNFF21 Investors’ Forum – New York, USA | May 2026'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 2
+                    // =====================================================
+                    [
+                        'id' => 2,
+                        'featured' => false,
+                        'category' => 'Partnership',
+                        'date' => 'March 2026',
+                        'location' => 'Toronto, Canada',
+                        'image' => 'news1.jpeg',
+
+                        'title' => 'Strategic Partnership Discussions Held at PDAC Mining Convention in Toronto',
+
+                        'excerpt' => 'During the recent global mining conference held in Toronto, representatives of CZMA / H & S Mining Group and Investment Ltd engaged in productive discussions with Eco Goldex Canada.',
+
+                        'content' => [
+
+                            'During the recent global mining conference held in Toronto, Canada, representatives of CZMA / H & S Mining Group and Investment Ltd engaged in productive discussions with officials of Eco Goldex Canada at the prestigious PDAC mining convention.',
+
+                            'As part of ongoing strategic collaboration, Eco Goldex Canada has granted CZMA / H & S Mining Group and Investment Ltd the exclusive rights to distribute its technologies and services within Ghana and Côte d’Ivoire (Ivory Coast). This partnership is expected to strengthen environmentally responsible gold extraction practices within the region.',
+
+                            'The meeting, which took place on the sidelines of the convention, provided an opportunity for both organizations to reaffirm their commitment to introducing innovative and sustainable mining solutions across West Africa.',
+
+                            'A photo from the event captures a representative of the project together with a colleague at the conference venue, highlighting the growing international collaboration supporting the initiative.'
+
+                        ],
+
+                        'source' => 'PDAC Convention – Toronto, Canada | March 2026'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 3
+                    // =====================================================
+                    [
+                        'id' => 3,
+                        'featured' => false,
+                        'category' => 'Project Update',
+                        'date' => 'January 29, 2026',
+                        'location' => 'Coastal Zone, Ghana',
+                        'image' => 'cso6.jpeg',
+
+                        'title' => 'GoldBod Technical Team Visits Coastal Zone Mining Integrated Support Project',
+
+                        'excerpt' => 'A four-member GoldBod Technical Team paid a working visit to the Coastal Zone Mining Integrated Support Project to explore potential areas of collaboration and support.',
+
+                        'content' => [
+
+                            'A four-member GoldBod Technical Team paid a working visit to the Coastal Zone Mining Integrated Support Project on Thursday, 29th January 2026. The visit formed part of a familiarization and engagement exercise to explore potential areas of collaboration and support for the proposed project.',
+
+                            'The team, led by Dr. Andrew, together with executives of the project, paid a courtesy call on the Omanhene and Paramount Chief of the Gomoa Ajumako Traditional Council. Discussions focused on how the project could be supported by GoldBod to promote responsible and sustainable mining practices within the coastal zone.',
+
+                            'The Project Leader, Henry Ben-Smith, formally introduced the GoldBod Technical Team to the Paramount Chief, Obrempon Nyaful Krampah XI, highlighting the vision, objectives, and anticipated community benefits of the project.'
+
+                        ],
+
+                        'source' => 'Coastal Zone Mining Integrated Support Project | January 29, 2026'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 4
+                    // =====================================================
+                    [
+                        'id' => 4,
+                        'featured' => false,
+                        'category' => 'Stakeholders',
+                        'date' => 'September 17, 2025',
+                        'location' => 'Jubilee House, Accra',
+                        'image' => 'cso.jpg',
+
+                        'title' => 'President Convened CSOs to Discuss Illegal Mining in Ghana',
+
+                        'excerpt' => 'The President convened a crucial meeting with Civil Society Organizations to deliberate on the pressing challenges of illegal mining across the country.',
+
+                        'content' => [
+
+                            'The President convened a crucial meeting with Civil Society Organizations (CSOs) to deliberate on the pressing challenges of illegal mining across the country.',
+
+                            'The engagement sought to foster stronger collaboration between government and civic bodies in developing sustainable solutions to protect Ghana’s environment and mineral resources.',
+
+                            'The meeting took place on 17th September 2025 at the Jubilee House, bringing together key stakeholders from various sectors for an open dialogue on responsible mining and national development.'
+
+                        ],
+
+                        'source' => 'Jubilee House, Accra | September 17, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 5
+                    // =====================================================
+                    [
+                        'id' => 5,
+                        'featured' => false,
+                        'category' => 'Community',
+                        'date' => 'June 23, 2025',
+                        'location' => 'Gomoa, Ghana',
+                        'image' => 'gomoa.jpg',
+
+                        'title' => 'Coastal Zone Mining Association Convenes Emergency Stakeholders Meeting',
+
+                        'excerpt' => 'The Coastal Zone Mining Association and zonal executives of the Ghana National Association of Small Scale Miners called an emergency stakeholders meeting in response to concerns about proposed mining activities in Gomoa.',
+
+                        'content' => [
+
+                            'In response to pressing concerns about proposed mining activities in Gomoa, the Coastal Zone Mining Association and zonal executives of the Ghana National Association of Small Scale Miners have called an emergency stakeholders meeting.',
+
+                            'The goal is to assess the environmental, social, and economic implications of the planned mining zone and promote responsible mining.',
+
+                            'Key stakeholders including traditional leaders, security officials, and the Minerals Commission are expected to attend.'
+
+                        ],
+
+                        'source' => 'Coastal Zone Mining Association | June 23, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 6
+                    // =====================================================
+                    [
+                        'id' => 6,
+                        'featured' => false,
+                        'category' => 'Development',
+                        'date' => 'August 5, 2025',
+                        'location' => 'Accra, Ghana',
+                        'image' => 'image8.jpg',
+
+                        'title' => 'Review Committee Meets on Cooperative Mining & Skills Development Programme',
+
+                        'excerpt' => 'The Ministry of Lands and Natural Resources convened a high-level review committee meeting in Accra to discuss the Responsible Cooperative Mining and Skills Development Programme.',
+
+                        'content' => [
+
+                            'The Ministry of Lands and Natural Resources has convened a high-level review committee meeting in Accra to discuss the Responsible Cooperative Mining and Skills Development Programme.',
+
+                            'The initiative seeks to promote sustainable mining practices while equipping small-scale miners with technical skills and capacity-building opportunities.',
+
+                            'Stakeholders from government, industry, and mining associations participated in the discussions to ensure the programme’s success and long-term impact on Ghana’s mining sector.'
+
+                        ],
+
+                        'source' => 'Ministry of Lands and Natural Resources | August 5, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 7
+                    // =====================================================
+                    [
+                        'id' => 7,
+                        'featured' => false,
+                        'category' => 'Agreement',
+                        'date' => 'June 9, 2025',
+                        'location' => 'Ghana',
+                        'image' => 'image3.jpg',
+
+                        'title' => 'Memorandum of Understanding (MoU) Signed',
+
+                        'excerpt' => 'A Memorandum of Understanding has been signed between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund.',
+
+                        'content' => [
+
+                            'A Memorandum of Understanding (MoU) has been signed between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund.',
+
+                            'This agreement, made on June 9th, 2025, seeks to strengthen collaboration in sustainable mineral development, community support, and the responsible management of mining resources.'
+
+                        ],
+
+                        'source' => 'CZMA | June 9th, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 8
+                    // =====================================================
+                    [
+                        'id' => 8,
+                        'featured' => false,
+                        'category' => 'Partnership',
+                        'date' => 'August 4, 2025',
+                        'location' => 'Seychem House, Ghana',
+                        'image' => 'mou.jpg',
+
+                        'title' => 'CZMA / Seychem Ltd Signs MoU with Ghana National Association of Small Scale Miners',
+
+                        'excerpt' => 'CZMA and Seychem Ltd entered into a strategic partnership with the Ghana National Association of Small Scale Miners to promote responsible and sustainable small-scale mining practices.',
+
+                        'content' => [
+
+                            'On August 4th, 2025, Coastal Zone Minerals Alliance (CZMA) and Seychem Ltd entered into a strategic partnership with the Ghana National Association of Small Scale Miners (GNASSM).',
+
+                            'This landmark Memorandum of Understanding (MoU) establishes collaboration to promote responsible and sustainable small-scale mining practices across the country.',
+
+                            'The signing ceremony took place at Seychem House, the official office building of the alliance, symbolizing a united front to improve regulation, environmental protection, and community engagement within the artisanal and small-scale mining sector.'
+
+                        ],
+
+                        'source' => 'CZMA Communications | August 4th, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 9
+                    // =====================================================
+                    [
+                        'id' => 9,
+                        'featured' => false,
+                        'category' => 'Policy',
+                        'date' => 'August 19, 2025',
+                        'location' => 'Diamond House, Accra',
+                        'image' => 'image9.png',
+
+                        'title' => 'GNASSM Meets UK-Ghana Gold Programme on ASGM Royalty Payment',
+
+                        'excerpt' => 'The Ghana National Association of Small Scale Miners met with a team from the UK-Ghana Gold Programme to deliberate on the ASGM Royalty Payment Questionnaire.',
+
+                        'content' => [
+
+                            'On Tuesday, August 19, 2025, the Ghana National Association of Small Scale Miners (GNASSM) met with a team from the UK-Ghana Gold Programme (UKGGP) at the Diamond House, Accra, to deliberate on the ASGM Royalty Payment Questionnaire aimed at consolidating ASGM formalization and legitimacy.',
+
+                            'The UK-Ghana Gold Programme (UKGGP) is a collaborative initiative between the UK and Ghana that seeks to combat illegal gold mining while promoting the formalization of the artisanal and small-scale gold mining (ASGM) sector.',
+
+                            'Team UKGGP was represented by Dr. Steve Manteaw and Kwame Tsum Adabor, while Team GNASSM included General Secretary Godwin Amarh, Razak Alhassan, Mrs. Victoria Adobea Guerrieri, Henry Ben Smith, and Nii Adjetey Kofi Mensah.'
+
+                        ],
+
+                        'source' => 'GNASSM | August 19, 2025'
+                    ],
+
+
+                    // =====================================================
+                    // NEWS 10
+                    // =====================================================
+                    [
+                        'id' => 10,
+                        'featured' => false,
+                        'category' => 'Mining',
+                        'date' => 'June 19, 2025',
+                        'location' => 'Ghana',
+                        'image' => 'galamsey.jpg',
+
+                        'title' => 'Chiefs and MMDCEs to Lead Fight Against Galamsey',
+
+                        'excerpt' => 'The Minister for Lands and Natural Resources announced a renewed strategy to combat illegal mining by empowering Chiefs and Metropolitan, Municipal, and District Chief Executives to take leadership roles.',
+
+                        'content' => [
+
+                            'The Minister for Lands and Natural Resources has announced a renewed strategy to combat illegal mining (galamsey) by empowering Chiefs and Metropolitan, Municipal, and District Chief Executives (MMDCEs) to take leadership roles.',
+
+                            'Speaking at a press conference, the minister emphasized the need for local accountability and community involvement to preserve lands and water bodies affected by unregulated mining activities.'
+
+                        ],
+
+                        'source' => 'Joy News | June 19th, 2025'
+                    ]
+
+                ];
+
+            @endphp
+
+
+            <section class="czma-news-section" id="news">
+
+                <div class="czma-news-bg"></div>
+
+                <div class="container position-relative">
+
+
+                    {{-- =====================================================
+                        SECTION HEADER
+                    ====================================================== --}}
+
+                    <div class="row align-items-end mb-5">
+
+                        <div class="col-lg-8">
+
+                            <div class="czma-section-label">
+                                <span></span>
+                                LATEST NEWS
+                            </div>
+
+                            <h2 class="czma-news-title">
+                                News, Updates &
+                                <span>Developments</span>
+                            </h2>
+
+                            <p class="czma-news-subtitle">
+                                Stay informed about the latest activities, partnerships
+                                and developments within the Coastal Zone Mining Association.
+                            </p>
+
                         </div>
-                    </div>
-                    <div class="swiper client-review-swiper1 rounded">
-                        <div class="swiper-wrapper mb-3">
 
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        
-                                        <div class="col-md-4">
-                                            <div class="row g-2">
-                                                <div class="col-12">
-                                                    <img src="{{ URL::asset('assets/images/news99.jpg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="Mining Investment Forum Image 1" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div>
-                                                {{-- <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/news2.jpeg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="Mining Investment Forum Image 2" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div> --}}
-                                            </div>
-                                        </div>
-                                        
 
-                                        <div class="col-md-8">
-                                            <div class="card-body">
+                        <div class="col-lg-4 mt-4 mt-lg-0">
 
-                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
-                                                    Ghana Showcases Mining Investment Opportunities at UNFF21 Forum in New York
-                                                </h2>
+                            <div class="czma-news-nav">
 
-                                                <p class="card-text text-muted fs-5">
+                                <button
+                                    class="czma-news-prev"
+                                    type="button"
+                                    aria-label="Previous news">
 
-                                                    The Minister for Lands and Natural Resources, 
-                                                    <strong>Hon. Emmanuel Armah-Kofi Buah</strong>, engaged global mining firms 
-                                                    and international investors during an Investors’ Forum held in New York on 
-                                                    May 12, 2026, on the sidelines of the 21st Session of the United Nations 
-                                                    Forum on Forests (UNFF21).
+                                    <i class="ri-arrow-left-line"></i>
 
-                                                    <br><br>
+                                </button>
 
-                                                    During the forum, the Minister presented Ghana’s 
-                                                    <strong>“Reset Agenda”</strong>, aimed at positioning the country as 
-                                                    Africa’s most attractive and competitive mining investment destination. 
-                                                    He highlighted Ghana’s political stability, investor-friendly environment, 
-                                                    and abundant mineral resources including gold, lithium, bauxite, manganese, 
-                                                    iron ore, cobalt, and nickel.
 
-                                                    <br><br>
+                                <button
+                                    class="czma-news-next"
+                                    type="button"
+                                    aria-label="Next news">
 
-                                                    Hon. Buah also outlined key government reforms designed to improve the 
-                                                    investment climate, including tax reductions, removal of VAT on exploration 
-                                                    activities, and measures to streamline regulations and enhance transparency 
-                                                    within the mining sector.
+                                    <i class="ri-arrow-right-line"></i>
 
-                                                    <br><br>
+                                </button>
 
-                                                    The Minister reaffirmed Ghana’s commitment to sustainable and responsible 
-                                                    mining practices, while inviting ethical investors to partner with the country 
-                                                    in developing a modern and sustainable mining economy.
-
-                                                </p>
-
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">
-                                                        UNFF21 Investors’ Forum – New York, USA | May 2026
-                                                    </small>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- News Slide 2 -->
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        
-                                        <div class="col-md-4">
-                                            <div class="row g-2">
-                                                <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/news1.jpeg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="MoU Signing Image 1" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div>
-                                                <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/news2.jpeg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="MoU Signing Image 2" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-
-                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
-                                                    Strategic Partnership Discussions Held at PDAC Mining Convention in Toronto
-                                                </h2>
-
-                                                <p class="card-text text-muted fs-5">
-
-                                                    During the recent global mining conference held in Toronto, Canada, representatives 
-                                                    of <strong>CZMA / H &amp; S Mining Group and Investment Ltd</strong> engaged in productive 
-                                                    discussions with officials of <strong>Eco Goldex Canada</strong> at the prestigious 
-                                                    PDAC mining convention.
-
-                                                    <br><br>
-
-                                                    As part of ongoing strategic collaboration, <strong>Eco Goldex Canada</strong> has granted 
-                                                    <strong>CZMA / H &amp; S Mining Group and Investment Ltd</strong> the 
-                                                    <strong>exclusive rights to distribute its technologies and services within 
-                                                    Ghana and Côte d'Ivoire (Ivory Coast)</strong>. This partnership is expected to 
-                                                    strengthen environmentally responsible gold extraction practices within the region.
-
-                                                    <br><br>
-
-                                                    The meeting, which took place on the sidelines of the convention, provided an 
-                                                    opportunity for both organizations to reaffirm their commitment to introducing 
-                                                    innovative and sustainable mining solutions across West Africa.
-
-                                                    <br><br>
-
-                                                    A photo from the event captures a representative of the project together with a 
-                                                    colleague at the conference venue, highlighting the growing international 
-                                                    collaboration supporting the initiative.
-
-                                                </p>
-
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">PDAC Convention – Toronto, Canada | March 2026</small>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- News Slide 1 -->
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <div class="d-flex gap-2 align-items-center">
-                                                <img src="{{ URL::asset('assets/images/cso6.jpeg') }}" 
-                                                    class="img-fluid rounded-start" 
-                                                    alt="GoldBod Technical Team Visit"
-                                                    style="height: 280px; object-fit: cover; width: 100%;">
-
-                                                {{-- <img src="{{ URL::asset('assets/images/cso1.jpeg') }}" 
-                                                    class="img-fluid rounded-start" 
-                                                    alt="GoldBod Technical Team Visit"
-                                                    style="height: 280px; object-fit: cover; width: 100%;"> --}}
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
-                                                    GoldBod Technical Team Visits Coastal Zone Mining Integrated Support Project
-                                                </h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    A four-member GoldBod Technical Team paid a working visit to the Coastal Zone 
-                                                    Mining Integrated Support Project on <strong>Thursday, 29th January 2026</strong>. 
-                                                    The visit formed part of a familiarization and engagement exercise to explore 
-                                                    potential areas of collaboration and support for the proposed project.
-                                                    <br><br>
-                                                    The team, led by <strong>Dr. Andrew</strong>, together with executives of the project, 
-                                                    paid a courtesy call on the Omanhene and Paramount Chief of the Gomoa Ajumako 
-                                                    Traditional Council. Discussions focused on how the project could be supported 
-                                                    by GoldBod to promote responsible and sustainable mining practices within the 
-                                                    coastal zone.
-                                                    <br><br>
-                                                    The Project Leader, <strong>Henry Ben-Smith</strong>, formally introduced the 
-                                                    GoldBod Technical Team to the Paramount Chief, 
-                                                    <strong>Obrempon Nyaful Krampah XI</strong>, highlighting the vision, objectives, 
-                                                    and anticipated community benefits of the project.
-                                                </p>
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">January 29, 2026</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
-                            <!-- News Slide 1 -->
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/cso.jpg') }}" 
-                                                class="img-fluid rounded-start" 
-                                                alt="Meeting Image" 
-                                                style="height: 600px; object-fit: contain; width: 600px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="fw-bold" style="color: rgb(15, 7, 71);">
-                                                    President Convened CSOs to Discuss Illegal Mining in Ghana
-                                                </h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    The President convened a crucial meeting with Civil Society Organizations (CSOs) to deliberate on the pressing challenges of illegal mining across the country. 
-                                                    The engagement sought to foster stronger collaboration between government and civic bodies in developing sustainable solutions to protect Ghana’s environment and mineral resources. 
-                                                    The meeting took place on <strong>17th September 2025</strong> at the <strong>Jubilee House</strong>, bringing together key stakeholders from various sectors for an open dialogue on responsible mining and national development.
-                                                </p>
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">September 17, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/gomoa.jpg') }}" class="img-fluid rounded-start" alt="News Image 1" style="height: 600px; object-fit: contain; width: 600px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">Coastal Zone Mining Association Convenes Emergency Stakeholders Meeting</h2>
-                                                <p class="card-text text-muted fs-5">In response to pressing concerns about proposed mining activities in Gomoa, the Coastal Zone Mining Association and zonal executives of the Ghana National Association of Small Scale Miners have called an emergency stakeholders meeting. The goal is to assess the environmental, social, and economic implications of the planned mining zone and promote responsible mining. Key stakeholders including traditional leaders, security officials, and the Minerals Commission are expected to attend.</p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">June 23, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image8.jpg') }}" 
-                                                class="img-fluid rounded-start" 
-                                                alt="News Image 2" 
-                                                style="height: 600px; object-fit: contain; width: 600px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">
-                                                    Review Committee Meets on Cooperative Mining & Skills Development Programme
-                                                </h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    The Ministry of Lands and Natural Resources has convened a high-level review committee 
-                                                    meeting in Accra to discuss the Responsible Cooperative Mining and Skills Development Programme. 
-                                                    The initiative seeks to promote sustainable mining practices while equipping small-scale miners 
-                                                    with technical skills and capacity-building opportunities. Stakeholders from government, industry, 
-                                                    and mining associations participated in the discussions to ensure the programme’s success and 
-                                                    long-term impact on Ghana’s mining sector.
-                                                </p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">August 5, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image3.jpg') }}" class="img-fluid rounded-start" alt="MoU News Image" style="height: 600px; object-fit:contain; width: 600px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">Memorandum of Understanding (MoU) Signed</h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    A Memorandum of Understanding (MoU) has been signed between Seychem Limited–Coastal Zone Mining Association Alliance and the Minerals Development Fund. 
-                                                    This agreement, made on June 9th, 2025, seeks to strengthen collaboration in sustainable mineral development, community support, and the responsible management of mining resources.
-                                                </p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">Source: CZMA. June 9th, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <div class="row g-2">
-                                                <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/mou.jpg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="MoU Signing Image 1" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div>
-                                                <div class="col-6">
-                                                    <img src="{{ URL::asset('assets/images/building.jpg') }}" 
-                                                        class="img-fluid rounded-start" 
-                                                        alt="MoU Signing Image 2" 
-                                                        style="height: 280px; object-fit:cover; width: 100%;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 style="color: rgb(15, 7, 71);">
-                                                    CZMA / Seychem Ltd Signs MoU with Ghana National Association of Small Scale Miners
-                                                </h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    On <strong>August 4th, 2025</strong>, Coastal Zone Minerals Alliance (CZMA) 
-                                                    and Seychem Ltd entered into a strategic partnership with the 
-                                                    <strong>Ghana National Association of Small Scale Miners (GNASSM)</strong>. 
-                                                    This landmark Memorandum of Understanding (MoU) establishes 
-                                                    collaboration to promote responsible and sustainable small-scale 
-                                                    mining practices across the country.
-                                                </p>
-                                                <p class="card-text text-muted fs-5">
-                                                    The signing ceremony took place at <strong>Seychem House</strong>, 
-                                                    the official office building of the alliance, symbolizing a 
-                                                    united front to improve regulation, environmental protection, 
-                                                    and community engagement within the artisanal and small-scale 
-                                                    mining sector.
-                                                </p>
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">Source: CZMA Communications. August 4th, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/image9.png') }}" 
-                                                class="img-fluid rounded-start" 
-                                                alt="News Image" 
-                                                style="height: 300px; object-fit:fill; width: 800px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">
-                                                    GNASSM Meets UK-Ghana Gold Programme on ASGM Royalty Payment
-                                                </h2>
-                                                <p class="card-text text-muted fs-5">
-                                                    On Tuesday, August 19, 2025, the Ghana National Association of Small Scale Miners (GNASSM) 
-                                                    met with a team from the UK-Ghana Gold Programme (UKGGP) at the Diamond House, Accra, 
-                                                    to deliberate on the ASGM Royalty Payment Questionnaire aimed at consolidating ASGM 
-                                                    formalization and legitimacy. <br><br>
-                                                    The UK-Ghana Gold Programme (UKGGP) is a collaborative initiative between the UK and Ghana 
-                                                    that seeks to combat illegal gold mining while promoting the formalization of the artisanal 
-                                                    and small-scale gold mining (ASGM) sector. <br><br>
-                                                    Team UKGGP was represented by Dr. Steve Manteaw and Kwame Tsum Adabor, while 
-                                                    Team GNASSM included General Secretary Godwin Amarh, Razak Alhassan, 
-                                                    Mrs. Victoria Adobea Guerrieri, Henry Ben Smith, and Nii Adjetey Kofi Mensah.
-                                                </p>
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">August 19, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- News Slide 2 -->
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow-sm h-100" style="background: #fff;">
-                                    <div class="row g-0 align-items-center">
-                                        <div class="col-md-4">
-                                            <img src="{{ URL::asset('assets/images/galamsey.jpg') }}" class="img-fluid rounded-start" alt="News Image 2" style="height: 600px; object-fit:contain; width: 600px;">
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body">
-                                                <h2 class="" style="color: rgb(15, 7, 71);">Chiefs and MMDCEs to Lead Fight Against Galamsey – Lands Minister</h2>
-                                                <p class="card-text text-muted fs-5">The Minister for Lands and Natural Resources has announced a renewed strategy to combat illegal mining (galamsey) by empowering Chiefs and Metropolitan, Municipal, and District Chief Executives (MMDCEs) to take leadership roles. Speaking at a press conference, the minister emphasized the need for local accountability and community involvement to preserve lands and water bodies affected by unregulated mining activities.</p>
-                                                {{-- <a href="#" class="btn btn-sm btn-primary">Read More</a> --}}
-                                                <div class="text-end mt-2">
-                                                    <small class="text-muted">Source: Joy News. June 19th, 2025</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Add more slides as needed -->
                         </div>
-                        <!-- Slider controls -->
-                        <div class="swiper-button-next bg-white rounded-circle"></div>
-                        <div class="swiper-button-prev bg-white rounded-circle"></div>
-                        <div class="swiper-pagination mt-3"></div>
+
                     </div>
+
+
+                    {{-- =====================================================
+                        NEWS SLIDER
+                    ====================================================== --}}
+
+                    <div class="swiper czmaNewsSwiper">
+
+                        <div class="swiper-wrapper">
+
+                            @foreach($news as $article)
+
+                                <div class="swiper-slide">
+
+                                    <article class="czma-news-card">
+
+                                        {{-- Image --}}
+                                        <div class="czma-card-image">
+
+                                            <img
+                                                src="{{ URL::asset('assets/images/' . $article['image']) }}"
+                                                alt="{{ $article['title'] }}"
+                                                loading="lazy"
+                                            >
+
+                                            <div class="czma-card-image-overlay"></div>
+
+
+                                            {{-- Category --}}
+                                            <span class="czma-card-category">
+
+                                                {{ strtoupper($article['category']) }}
+
+                                            </span>
+
+                                        </div>
+
+
+                                        {{-- Content --}}
+                                        <div class="czma-card-content">
+
+                                            <div class="czma-card-date">
+
+                                                <i class="ri-calendar-line"></i>
+
+                                                {{ $article['date'] }}
+
+                                            </div>
+
+
+                                            <h3>
+
+                                                {{ $article['title'] }}
+
+                                            </h3>
+
+
+                                            <p>
+
+                                                {{ $article['excerpt'] }}
+
+                                            </p>
+
+
+                                            <button
+                                                type="button"
+                                                class="czma-card-link"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#newsArticleModal"
+                                                data-news-id="{{ $article['id'] }}"
+                                            >
+
+                                                Read Article
+
+                                                <i class="ri-arrow-right-up-line"></i>
+
+                                            </button>
+
+                                        </div>
+
+                                    </article>
+
+                                </div>
+
+                            @endforeach
+
+                        </div>
+
+
+                        {{-- Pagination --}}
+                        <div class="swiper-pagination czma-news-pagination"></div>
+
+                    </div>
+
                 </div>
+
             </section>
+
+
+
+            {{-- =========================================================
+                NEWS ARTICLE MODAL
+            ========================================================= --}}
+
+            <div
+                class="modal fade czma-news-modal"
+                id="newsArticleModal"
+                tabindex="-1"
+                aria-labelledby="newsArticleModalLabel"
+                aria-hidden="true"
+            >
+
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+
+                    <div class="modal-content">
+
+
+                        {{-- Close --}}
+                        <button
+                            type="button"
+                            class="czma-modal-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        >
+
+                            <i class="ri-close-line"></i>
+
+                        </button>
+
+
+                        <div class="modal-body p-0">
+
+
+                            {{-- =================================================
+                                ARTICLE HEADER
+                            ================================================== --}}
+
+                            <div class="czma-article-header">
+
+                                <div
+                                    id="articleCategory"
+                                    class="czma-article-category">
+                                </div>
+
+
+                                <div class="czma-article-meta">
+
+                                    <span>
+
+                                        <i class="ri-calendar-line"></i>
+
+                                        <span id="articleDate"></span>
+
+                                    </span>
+
+
+                                    <span>
+
+                                        <i class="ri-map-pin-line"></i>
+
+                                        <span id="articleLocation"></span>
+
+                                    </span>
+
+                                </div>
+
+
+                                <h2 id="articleTitle"></h2>
+
+                            </div>
+
+
+                            {{-- =================================================
+                                ARTICLE IMAGE
+                            ================================================== --}}
+
+                            <div class="czma-article-image">
+
+                                <img
+                                    id="articleImage"
+                                    src=""
+                                    alt=""
+                                >
+
+                            </div>
+
+
+                            {{-- =================================================
+                                ARTICLE CONTENT
+                            ================================================== --}}
+
+                            <div class="czma-article-body">
+
+                                <div id="articleContent"></div>
+
+
+                                {{-- Source --}}
+                                <div class="czma-article-source">
+
+                                    <i class="ri-information-line"></i>
+
+                                    <span id="articleSource"></span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
 
 
@@ -2342,7 +3852,229 @@
 
 
         {{-- @include("partials/vendor-scripts") --}}
+        <script>
 
+            document.addEventListener('DOMContentLoaded', function () {
+
+
+                /* =====================================================
+                CZMA NEWS SWIPER
+                ====================================================== */
+
+                const czmaNewsSwiper = new Swiper('.czmaNewsSwiper', {
+
+                    slidesPerView: 1,
+
+                    spaceBetween: 24,
+
+                    speed: 700,
+
+                    grabCursor: true,
+
+                    navigation: {
+
+                        nextEl: '.czma-news-next',
+
+                        prevEl: '.czma-news-prev'
+
+                    },
+
+                    pagination: {
+
+                        el: '.czma-news-pagination',
+
+                        clickable: true
+
+                    },
+
+                    /* autoplay: {
+
+                        delay: 6000,
+
+                        disableOnInteraction: false
+
+                    }, */
+                    speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
+
+                    breakpoints: {
+
+                        576: {
+
+                            slidesPerView: 1
+
+                        },
+
+                        768: {
+
+                            slidesPerView: 2
+
+                        },
+
+                        1200: {
+
+                            slidesPerView: 3
+
+                        }
+
+                    }
+
+                });
+
+
+
+                /* =====================================================
+                NEWS DATA
+                ====================================================== */
+
+                const newsData = @json($news);
+
+
+
+                /* =====================================================
+                ARTICLE MODAL
+                ====================================================== */
+
+                const newsModal = document.getElementById('newsArticleModal');
+
+
+                if (newsModal) {
+
+                    newsModal.addEventListener(
+                        'show.bs.modal',
+                        function (event) {
+
+
+                            const button = event.relatedTarget;
+
+
+                            if (!button) {
+                                return;
+                            }
+
+
+                            const newsId = parseInt(
+                                button.getAttribute('data-news-id')
+                            );
+
+
+                            const article = newsData.find(
+                                item => item.id === newsId
+                            );
+
+
+                            if (!article) {
+                                return;
+                            }
+
+
+
+                            /* ---------------------------------------------
+                            CATEGORY
+                            --------------------------------------------- */
+
+                            document.getElementById(
+                                'articleCategory'
+                            ).textContent =
+                                article.category.toUpperCase();
+
+
+
+                            /* ---------------------------------------------
+                            DATE
+                            --------------------------------------------- */
+
+                            document.getElementById(
+                                'articleDate'
+                            ).textContent =
+                                article.date;
+
+
+
+                            /* ---------------------------------------------
+                            LOCATION
+                            --------------------------------------------- */
+
+                            document.getElementById(
+                                'articleLocation'
+                            ).textContent =
+                                article.location;
+
+
+
+                            /* ---------------------------------------------
+                            TITLE
+                            --------------------------------------------- */
+
+                            document.getElementById(
+                                'articleTitle'
+                            ).textContent =
+                                article.title;
+
+
+
+                            /* ---------------------------------------------
+                            IMAGE
+                            --------------------------------------------- */
+
+                            const articleImage =
+                                document.getElementById('articleImage');
+
+
+                            articleImage.src =
+                                "{{ URL::asset('assets/images') }}/"
+                                + article.image;
+
+
+                            articleImage.alt =
+                                article.title;
+
+
+
+                            /* ---------------------------------------------
+                            FULL ARTICLE CONTENT
+                            --------------------------------------------- */
+
+                            const articleContent =
+                                document.getElementById('articleContent');
+
+
+                            articleContent.innerHTML = '';
+
+
+                            article.content.forEach(function (paragraph) {
+
+                                const p =
+                                    document.createElement('p');
+
+
+                                p.textContent =
+                                    paragraph;
+
+
+                                articleContent.appendChild(p);
+
+                            });
+
+
+
+                            /* ---------------------------------------------
+                            SOURCE
+                            --------------------------------------------- */
+
+                            document.getElementById(
+                                'articleSource'
+                            ).textContent =
+                                article.source;
+
+
+                        }
+                    );
+
+                }
+
+            });
+
+            </script>
 
     </body>
 
@@ -2362,22 +4094,58 @@
                 smartBackspace: false // Ensures all strings get typed without skipping identical parts
             });
         </script>
-        <script>
-            var swiper = new Swiper(".client-review-swiper1", {
-                loop: true,
-                /* autoplay: {
-                    delay: 60000, // duration in milliseconds (8000ms = 8 seconds per slide)
-                    disableOnInteraction: false,
-                }, */
-                speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
-                navigation: {
-                nextEl: '.client-review-next',
-                prevEl: '.client-review-prev'
+        {{-- <script>
+            new Swiper(".czmaNewsSwiper", {
+
+            slidesPerView: 1,
+            spaceBetween: 24,
+
+            navigation: {
+                nextEl: ".czma-news-next",
+                prevEl: ".czma-news-prev",
+            },
+
+            pagination: {
+                el: ".czma-news-pagination",
+                clickable: true,
+            },
+
+            breakpoints: {
+
+                768: {
+                    slidesPerView: 2,
                 },
-                pagination: {
-                el: '.swiper-pagination',
-                clickable: true
+
+                1200: {
+                    slidesPerView: 2,
                 }
-            });
-        </script>
+
+            },
+
+            /* autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            }, */
+
+            loop: true,
+            speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
+
+        });
+        var swiper = new Swiper(".client-review-swiper1", {
+            loop: true,
+            /* autoplay: {
+                delay: 60000, // duration in milliseconds (8000ms = 8 seconds per slide)
+                disableOnInteraction: false,
+            }, */
+            speed: 1000, // transition speed (1000ms = 1 second for the slide animation)
+            navigation: {
+            nextEl: '.client-review-next',
+            prevEl: '.client-review-prev'
+            },
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+            }
+        });
+        </script> --}}
     @endsection
